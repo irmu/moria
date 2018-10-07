@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.gimli" name="Gimli" version="2018.07.31" provider-name="Lórien">
+<addon id="plugin.video.gimli" name="Gimli" version="2018.10.07" provider-name="Lórien">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -8,12 +8,13 @@
         <import addon="script.module.beautifulsoup" version="3.2.1" />
         <import addon="script.module.requests" version="2.9.1" />
         <import addon="script.module.addon.common" version="2.0.0" />
-		<import addon="script.module.dateutil" />
+        <import addon="script.module.xmltodict" version="0.9.0" />
+        <import addon="script.module.dateutil" />
         <import addon="script.module.xmltodict" version="0.9.0" />
         <import addon="script.module.resolveurl" />
 		<import addon="plugin.video.SportsDevil" />
 		<import addon="plugin.video.reddit_viewer" />
-		<!--<import addon="script.module.web-pdb" version="1.0"/>-->
+        <!--<import addon="script.module.web-pdb" version="1.0"/>-->
 		<!--<import addon="script.module.urlresolver" />-->
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -22,7 +23,7 @@
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Gimli, Son of Gloin</summary>
-        <description lang="en">Certainty of death! Low chance of success! What are we waiting for!?!?	</description>
+        <description lang="en">Certainty of death! Low chance of success! What are we waiting for!?!?</description>
         <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
         <platform>all</platform>
         <website/>
@@ -47,4 +48,21 @@
             <genre>movies,usa</genre>
         </extension>
     </addon>
+
+<addon id="service.radagast"
+    name="Radagast" version="2018.10.05" provider-name="Lórien">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="default.py" start="login" />
+  <extension point="xbmc.python.script" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Automatic Search for Subtitles upon Playback.</summary>
+    <description lang="en">Automatic Search for Subtitles upon Playback. Credits to all previous/original developers. This is just a rebranding for personal use.</description>
+    <platform>all</platform>
+    <language>en</language>
+  </extension>
+</addon>
 </addons>

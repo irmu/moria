@@ -1,0 +1,487 @@
+################################################################ PORTUGAL, CARALHO!!! #####
+###########################################################################################
+<poster>GIMLI</poster>
+###########################################################################################
+******* this list was made with love. If you use it or share it, please credit it :) ******
+************************************ sharing is caring ************************************
+*** Networks - Thanks to TRADEMARK <3
+
+<dir>
+  <title>A+E</title>
+  <tmdb>network/shows/129</tmdb>
+  <thumbnail>https://i2.wp.com/www.rokuchannels.tv/wp-content/uploads/2013/12/ae.jpg?resize=290%2C218&ssl=1</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>ABC</title>
+  <tmdb>network/shows/2</tmdb>
+  <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Abc_2013_logo_blue.svg/594px-Abc_2013_logo_blue.svg.png</thumbnail>
+</dir>
+
+<dir>
+  <title>Amazon</title>
+  <tmdb>network/shows/1024</tmdb>
+  <thumbnail>http://channels.roku.com/images/5fb394e18d1243c38918ffc2dc39d83c-hd.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>AMC</title>
+  <tmdb>network/shows/174</tmdb>
+  <thumbnail>http://www.amctv.co.uk/wp-content/themes/amc-global/images/amc/placeholder_16x9.png</thumbnail>
+</dir>
+
+<dir>
+  <title>Animal Planet</title>
+  <tmdb>network/shows/91</tmdb>
+  <thumbnail>https://vignette4.wikia.nocookie.net/logopedia/images/5/55/Animal_Planet_2006.png/revision/latest?cb=20091123075339</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Australian Broadcasting Company</title>
+  <tmdb>network/shows/18</tmdb>
+  <thumbnail>https://d2q79iu7y748jz.cloudfront.net/s/_logo/7f134ca4e0f7d4e5314bfc64021ef460.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>BET</title>
+  <tmdb>network/shows/24</tmdb>
+  <thumbnail>https://pmcdeadline2.files.wordpress.com/2017/03/bet-logo.png?w=446&h=299&crop=1</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Bravo</title>
+  <tmdb>network/shows/312</tmdb>
+  <thumbnail>https://static1.squarespace.com/static/57e47123e3df28289dec7294/t/57e477cebebafb38f5abfc6d/1474590670758/UrhYh8yg.jpg?format=500w</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Cartoon Network</title>
+  <tmdb>network/shows/56</tmdb>
+  <thumbnail>http://www.direct-vs-dish.com/media/channel_logos/180px-CN_logo.svg_-e1314879342640.png.300x300_q85.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>CBS</title>
+  <tmdb>network/shows/16</tmdb>
+  <thumbnail>https://1.bp.blogspot.com/-zRaKP4j-LkM/VRYUFbi9_4I/AAAAAAAALik/h2MPwLHV26E/s1600/CBS.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Cinemax</title>
+  <tmdb>network/shows/359</tmdb>
+  <thumbnail>http://picspeaks.com/wp-content/uploads/2012/12/Cinemax-best-movie-channel.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>CNBC</title>
+  <tmdb>network/shows/175</tmdb>
+  <thumbnail>http://www.direct-vs-dish.com/media/channel_logos/cnbc.png.300x300_q85.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>CNN</title>
+  <tmdb>network/shows/59</tmdb>
+  <thumbnail>http://www.adweek.com/tvnewser/wp-content/uploads/sites/3/2015/02/cnn400.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Comedy Central</title>
+  <tmdb>network/shows/47</tmdb>
+  <thumbnail>https://cordcutting.com/images/plex-images/comedy-central.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>The CW</title>
+  <tmdb>network/shows/71</tmdb>
+  <thumbnail>https://www.screamhorrormag.com/wp-content/uploads/2016/11/The-CW.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Destination America</title>
+  <tmdb>network/shows/530</tmdb>
+  <thumbnail>https://www.underconsideration.com/brandnew/archives/destination_america_logo_detail.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Discovery</title>
+  <tmdb>network/shows/64</tmdb>
+  <thumbnail>https://yt3.ggpht.com/-9swW14alzl0/AAAAAAAAAAI/AAAAAAAAAAA/rcZu2EH9hJo/s900-c-k-no-mo-rj-c0xffffff/photo.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Disney Channel</title>
+  <tmdb>network/shows/54</tmdb>
+  <thumbnail>https://lumiere-a.akamaihd.net/v1/images/eu_disneychannel_appi_app_r_dce2e8d0.jpeg?region=0,0,450,450</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Disney XD</title>
+  <tmdb>network/shows/44</tmdb>
+  <thumbnail>https://www.whatutalkingboutwillis.com/wp-content/uploads/2014/07/disneyXD.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>DIY Network</title>
+  <tmdb>network/shows/625</tmdb>
+  <thumbnail>https://superrepo.org/static/images/fanart/original/plugin.video.diy.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>E!</title>
+  <tmdb>network/shows/76</tmdb>
+  <thumbnail>http://tve-static-eonline.nbcuni.com/prod/image/572/715/E!Logo_2560x1450_1280x725_624183363846.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Fox</title>
+  <tmdb>network/shows/303</tmdb>
+  <thumbnail>https://i.ytimg.com/vi/abSLGtoWe5Q/maxresdefault.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Fox Kids</title>
+  <tmdb>network/shows/86</tmdb>
+  <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/FOX_Kids_logo.svg/1200px-FOX_Kids_logo.svg.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Freeform</title>
+  <tmdb>network/shows/1267</tmdb>
+  <thumbnail>http://cdn.abclocal.go.com/content/wls/images/cms/automation/images/1156076_630x354.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>FX</title>
+  <tmdb>network/shows/88</tmdb>
+  <thumbnail>https://www.2017auditions.com/wp-content/uploads/2016/11/fx-casting-call.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>FXX</title>
+  <tmdb>network/shows/1035</tmdb>
+  <thumbnail>https://imagesvc.timeincapp.com/v3/fan/image?url=https%3A%2F%2Ffansided.com%2Ffiles%2F2017%2F01%2Ffxx-logo.jpg&c=sc&w=850&h=560</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>FYI</title>
+  <tmdb>network/shows/1080</tmdb>
+  <thumbnail>http://images-mysky.com.ph.s3.amazonaws.com/production/1429761308_update-fyi.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Hallmark</title>
+  <tmdb>network/shows/384</tmdb>
+  <thumbnail>https://cdn1.thr.com/sites/default/files/imagecache/scale_crop_768_433/2012/08/hallmark_a.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>HBO</title>
+  <tmdb>network/shows/49</tmdb>
+  <thumbnail>http://cdn2.ubergizmo.com/wp-content/uploads/2015/06/hbo-sign-640x357.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>HGTV</title>
+  <tmdb>network/shows/210</tmdb>
+  <thumbnail>https://s-media-cache-ak0.pinimg.com/avatars/hgtv_1422044086_280.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>History</title>
+  <tmdb>network/shows/65</tmdb>
+  <thumbnail>https://pmcdeadline2.files.wordpress.com/2014/05/history_channel_logo__140523153130.jpeg</thumbnail>
+  <fantart></fantart>
+</dir>
+<dir>
+  <title>Hulu</title>
+  <tmdb>network/shows/453</tmdb>
+  <thumbnail>https://assetshuluimcom-a.akamaihd.net/h2o/facebook_share_thumb_default_hulu.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>IFC</title>
+  <tmdb>network/shows/124</tmdb>
+  <thumbnail>http://images.amcnetworks.com/ifc.com/wp-content/uploads/2011/11/ifc_logo_default_share.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Investigation Discovery</title>
+  <tmdb>network/shows/244</tmdb>
+  <thumbnail>http://www.tveskimo.com/wp-content/uploads/2017/08/Investigation-Discovery-An-American-Murder-Mystery.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>ITV</title>
+  <tmdb>network/shows/9</tmdb>
+  <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/9/92/ITV_logo_2013.svg/1280px-ITV_logo_2013.svg.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>The Lifestyle Channel</title>
+  <tmdb>network/shows/683</tmdb>
+  <thumbnail>https://www.foxtel.com.au/content/dam/foxtel/shared/channel/LST/lifestyle-horizontal-hero-light-bg.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Lifetime</title>
+  <tmdb>network/shows/34</tmdb>
+  <thumbnail>http://www.lee-edwards.co.uk/wp-content/uploads/2014/01/Screen-Shot-2013-11-21-at-14.20.56.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>The Movie Network</title>
+  <tmdb>network/shows/245</tmdb>
+  <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/0/0a/The_Movie_Network_Logo.svg/1200px-The_Movie_Network_Logo.svg.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>MTV</title>
+  <tmdb>network/shows/33</tmdb>
+  <thumbnail>http://pixel.nymag.com/imgs/daily/vulture/2016/09/08/08-mtv-logo.w529.h529.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Nat Geo Wild</title>
+  <tmdb>network/shows/1043</tmdb>
+  <thumbnail>https://s-media-cache-ak0.pinimg.com/originals/c2/f8/61/c2f8610df7d81a4e5e5d7b43273773e7.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>National Geographic Channel</title>
+  <tmdb>network/shows/799</tmdb>
+  <thumbnail>https://i.ytimg.com/vi/9U4mpPWZsyU/hqdefault.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>NBC</title>
+  <tmdb>network/shows/6</tmdb>
+  <thumbnail>https://pbs.twimg.com/profile_images/919618601040035840/yF3vktPv_400x400.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Netflix</title>
+  <tmdb>network/shows/213</tmdb>
+  <thumbnail>https://lh3.googleusercontent.com/BbqN8GpAephpCNwTBuB8SiFTPT1zFccYyuPd4qRRQRTQPXU5d4F1wuVWfEJh3L4RL3wIKc6BeQ=w640-h400-e365</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Nickelodeon</title>
+  <tmdb>network/shows/13</tmdb>
+  <thumbnail>https://sfassets-production.s3.amazonaws.com/media/slide/mobile/12285/Banner.NickelodeonRML.642x522.1.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>PBS</title>
+  <tmdb>network/shows/14</tmdb>
+  <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/PBS_Logo.svg/1200px-PBS_Logo.svg.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Showcase</title>
+  <tmdb>network/shows/105</tmdb>
+  <thumbnail>http://vignette1.wikia.nocookie.net/logopedia/images/b/bf/Showcase-logo-2015.png/revision/latest?cb=20150407162542</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Showtime</title>
+  <tmdb>network/shows/67</tmdb>
+  <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Showtime.svg/1200px-Showtime.svg.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Sky</title>
+  <tmdb>network/shows/421</tmdb>
+  <thumbnail>https://dm8eklel4s62k.cloudfront.net/images/sky-logo-b90e8c9.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Sky1</title>
+  <tmdb>network/shows/214</tmdb>
+  <thumbnail>https://www.tvsa.co.za/images/uploads/thumbs/0049925.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Sky Living</title>
+  <tmdb>network/shows/115</tmdb>
+  <thumbnail>http://cdn3-i.hitc-s.com/70/sky_living_logo_12674.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Spike</title>
+  <tmdb>network/shows/55</tmdb>
+  <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Spike_logo_2015.svg/1200px-Spike_logo_2015.svg.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Starz</title>
+  <tmdb>network/shows/318</tmdb>
+  <thumbnail>http://cdn.exstreamist.com/wp-content/uploads/2015/07/watch-starz-online.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Sundance</title>
+  <tmdb>network/shows/270</tmdb>
+  <thumbnail>http://www.sundance.tv/wp-content/themes/sundance/assets/master/img/thumb_placeholder.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>SyFy</title>
+  <tmdb>network/shows/77</tmdb>
+  <thumbnail>https://www.underconsideration.com/brandnew/archives/syfy_2017_logo.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>TBS</title>
+  <tmdb>network/shows/68</tmdb>
+  <thumbnail>http://image.commarts.com/images/0/8/1/180913_71_0_LTQwMDk5NjY3MjE1MDYzNTA3NDE.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Television New Zealand</title>
+  <tmdb>network/shows/73</tmdb>
+  <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/TVNZ_1_logo.svg/1280px-TVNZ_1_logo.svg.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>TLC</title>
+  <tmdb>network/shows/84</tmdb>
+  <thumbnail>https://s-media-cache-ak0.pinimg.com/originals/3c/e6/43/3ce643b45d4fdc71a162e215f4617321.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>TNT</title>
+  <tmdb>network/shows/41</tmdb>
+  <thumbnail>https://pmcvariety.files.wordpress.com/2016/05/tnt-logo.jpg?w=670&h=377&crop=1</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Travel Channel</title>
+  <tmdb>network/shows/209</tmdb>
+  <thumbnail>http://www.theautochannel.com/news/2016/01/04/178846-travel-channel-s-trip-2016-fourth-annual-sweepstakes-and-network.1-lg.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>truTV</title>
+  <tmdb>network/shows/364</tmdb>
+  <thumbnail>https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/TruTV_2014.svg/1200px-TruTV_2014.svg.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>TV Land</title>
+  <tmdb>network/shows/397</tmdb>
+  <thumbnail>https://static1.squarespace.com/static/540727a5e4b05f700aaed368/t/54111d51e4b04939fb5ddcba/1410407762889/</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>USA</title>
+  <tmdb>network/shows/30</tmdb>
+  <thumbnail>http://cdn.exstreamist.com/wp-content/uploads/2015/07/watch-usa-network-online.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Velocity</title>
+  <tmdb>network/shows/435</tmdb>
+  <thumbnail>https://static1.squarespace.com/static/53e3e4e2e4b0e15dfb33c699/53e6fe06e4b09aec9175b373/53e70f88e4b0cf25d06c86f9/1407651724778/Velocity+Network_Logo+1.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>VH1</title>
+  <tmdb>network/shows/158</tmdb>
+  <thumbnail>https://s-media-cache-ak0.pinimg.com/originals/49/d7/3a/49d73ab7d6cd301557b0cb535576c152.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>Viceland</title>
+  <tmdb>network/shows/1339</tmdb>
+  <thumbnail>http://cultmontreal.com/wp-content/uploads/2016/02/Viceland.jpg</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>The WB Network</title>
+  <tmdb>network/shows/21</tmdb>
+  <thumbnail>https://vignette.wikia.nocookie.net/charmed/images/b/b1/TheWBfrogMedium.jpg/revision/latest?cb=20090814065036</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>WE tv</title>
+  <tmdb>network/shows/448</tmdb>
+  <thumbnail>http://pmcdeadline2.files.wordpress.com/2012/03/we_tv_logo_2011__120321161827.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>WGN America</title>
+  <tmdb>network/shows/202</tmdb>
+  <thumbnail>https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/WGN_America_2009_logo.svg/800px-WGN_America_2009_logo.svg.png</thumbnail>
+  <fantart></fantart>
+</dir>
+
+<dir>
+  <title>WWE Network</title>
+  <tmdb>network/shows/1025</tmdb>
+  <thumbnail>https://www.f4wonline.com/sites/www.f4wonline.com/files/field/image/network.png</thumbnail>
+  <fantart></fantart>
+</dir>
