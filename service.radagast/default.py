@@ -4,7 +4,6 @@ import os
 import sys
 import xbmc
 import xbmcaddon
-exit()
 
 __addon__ = xbmcaddon.Addon()
 __author__ = __addon__.getAddonInfo('author')
@@ -130,12 +129,8 @@ class AutoSubsPlayer(xbmc.Player):
             if (xbmc.Player().isPlayingVideo() and totalTime > ExcludeTime and (not videoclipAlbum) and ((not xbmc.getCondVisibility("VideoPlayer.HasSubtitles")) or (check_for_specific and not specific_language in availableLangs)) and all(movieFullPath.find (v) <= -1 for v in ignore_words) and (isExcluded(movieFullPath)) ):
                 self.run = False
                 xbmc.sleep(1000)
-                Debug('Started: AutoSearching for Subs')	
-                xbmc.executebuiltin('XBMC.ActivateWindow(SubtitleSearch)')	
-                xbmc.sleep(8000)
-                xbmc.executebuiltin('Dialog.Close(all,true)')
-                xbmc.sleep(3000)
-                xbmc.executebuiltin('Dialog.Close(all,true)')				
+                Debug('Started: AutoSearching for Subs')
+                xbmc.executebuiltin('XBMC.ActivateWindow(SubtitleSearch)')
             else:
                 Debug('Started: Subs found or Excluded')
                 self.run = False
