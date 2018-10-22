@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<addons>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.gimli" name="Gimli" version="2018.10.22" provider-name="Lórien">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
@@ -28,39 +27,3 @@
         <reuselanguageinvoker>false</reuselanguageinvoker>
     </extension>
 </addon>
-
-    <addon id="repository.moria" name="Moria Repository" version="2018.10.05" provider-name="Irmu">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="Moria Repository">
-            <info compressed="false">https://raw.githubusercontent.com/irmu/moria/master/_zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/irmu/moria/master/_zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/irmu/moria/master/_zips/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Moria Repository</summary>
-            <description>The Doors of Durin, Lord of Moria. Speak, friend, and enter. I, Narvi, made them. Celebrimbor of Hollin drew these signs.</description>
-            <platform>all</platform>
-            <genre>movies,usa</genre>
-        </extension>
-    </addon>
-
-<addon id="service.radagast"
-    name="Radagast" version="2018.10.21" provider-name="Lórien">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.service" library="default.py" start="login" />
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Automatic Search for Subtitles upon Playback.</summary>
-    <description lang="en">Automatic Search for Subtitles upon Playback. Credits to all previous/original developers. This is just a rebranding for personal use.</description>
-    <platform>all</platform>
-    <language>pt</language>
-  </extension>
-</addon>
-</addons>
