@@ -19,9 +19,9 @@
 <item>
 <title>» CANAIS & AGENDA ARENAVISION</title>
 <link>http://nopr0n</link>
-<thumbnail>https://raw.githubusercontent.com/irmu/bola/master/_tools/art/foot.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/stadium.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/irmu/bola/master/_tools/lists/sports_PT.txt</externallink>
+<externallink>https://raw.githubusercontent.com/irmu/moria/master/_tools/lists/legolas/ace.xml</externallink>
 </item>
 
 <item>
