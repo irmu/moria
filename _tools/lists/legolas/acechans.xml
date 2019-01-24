@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<item>
+<title>» CANAIS ARENAVISION</title>
+<link>http://nopr0n</link>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+<item>
+<title>» ARENAVISION  01</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 01 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/01</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 02</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 02 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/02</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 03</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 03 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/03</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 04</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 04 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/04</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 05</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 05 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/05</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 06</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 06 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/06</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 07</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 07 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/07</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 08</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 08 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/08</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 09</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 09 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/09</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 10</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 10 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/10</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 11</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 11 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/11</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 12</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 12 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/12</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 13</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 13 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/13</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 14</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 14 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/14</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 15</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 15 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/15</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 16</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 16 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/16</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 17</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 17 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/17</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 18</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 18 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/18</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 19</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 19 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/19</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 20</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 20 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/20</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 21</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 21 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/21</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 22</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 22 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/22</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 23</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 23 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/23</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 24</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 24 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/24</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 25</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 25 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/25</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 26</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 26 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/26</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 27</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 27 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/27</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 28</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 28 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/28</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 29</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 29 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/29</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 30</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 30 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/30</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 31</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 31 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/31</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 32</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 32 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/32</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 33</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 33 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/33</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 34</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 34 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/34</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 35</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 35 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/35</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 36</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 36 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/36</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 37</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 37 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/37</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 38</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 38 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/38</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 39</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 39 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/39</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 40</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 40 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/40</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 41</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 41 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/41</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 42</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 42 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/42</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 43</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 43 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/43</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
+<item>
+<title>» ARENAVISION 44</title>
+<link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 44 (PLEXUS)</link>
+<regex>
+<name>hash</name>
+<expres>this.loadPlayer\("(.*?)"</expres>
+<page>http://cdn1.arenavision.link/44</page>
+<referer>http://arenavision.in</referer>
+<setcookie>beget=begetok</setcookie>
+</regex>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
