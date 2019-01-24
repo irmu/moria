@@ -12,12 +12,28 @@
 <title>» CANAIS DESPORTO - PT</title>
 <link>http://nopr0n</link>
 <thumbnail>https://raw.githubusercontent.com/irmu/bola/master/_tools/art/foot.png</thumbnail>
-<fanart>https://raw.githubusercontent.com/irmu/bola/master/_tools/art/stadium.jpg</fanart>
+<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/stadium.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/irmu/bola/master/_tools/lists/sports_PT.txt</externallink>
 </item>
 
 <item>
-<title>[COLOR FFff8000][b]» ABOUT[/b][/COLOR]</title>
+<title>» CANAIS & AGENDA ARENAVISION</title>
+<link>http://nopr0n</link>
+<thumbnail>https://raw.githubusercontent.com/irmu/bola/master/_tools/art/foot.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/stadium.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/irmu/bola/master/_tools/lists/sports_PT.txt</externallink>
+</item>
+
+<item>
+<title>» CANAIS DESPORTO</title>
+<link>http://nopr0n</link>
+<thumbnail>https://raw.githubusercontent.com/irmu/bola/master/_tools/art/foot.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/stadium.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/irmu/bola/master/_tools/lists/sports_PT.txt</externallink>
+</item>
+
+<item>
+<title>[COLOR FFff8000]» ABOUT	[/COLOR]</title>
 <link>http://nopr0n</link>
 <thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/icon.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/fanart.jpg</fanart>
