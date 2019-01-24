@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<item>
+<title>•[COLOR FFff8000] AGENDA ARENAVISION[/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -27,3 +29,4 @@
 <setcookie>beget=begetok</setcookie>
  </regex>
 <thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
+</item>
