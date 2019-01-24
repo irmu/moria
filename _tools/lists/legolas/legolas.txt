@@ -1,11 +1,27 @@
 ﻿############################################################## PORTUGAL, CARALHO!!! #######
 ###########################################################################################
+
 <item>
-<title>[COLOR FFff8000][b]» LEGOLAS[/b][/COLOR]</title>
+<title>[COLOR FFff8000]» LEGOLAS[/COLOR]</title>
 <link>http://nopr0n</link>
-<thumbnail>https://raw.githubusercontent.com/irmu/legolas/master/_tools/art/icon.jpg</thumbnail>
-<fanart>https://raw.githubusercontent.com/irmu/legolas/master/_tools/art/fanart.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/irmu/legolas/master/_tools/lists/about.txt</externallink>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/icon.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>» CANAIS DESPORTO - PT</title>
+<link>http://nopr0n</link>
+<thumbnail>https://raw.githubusercontent.com/irmu/bola/master/_tools/art/foot.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/irmu/bola/master/_tools/art/stadium.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/irmu/bola/master/_tools/lists/sports_PT.txt</externallink>
+</item>
+
+<item>
+<title>[COLOR FFff8000][b]» ABOUT[/b][/COLOR]</title>
+<link>http://nopr0n</link>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/icon.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/fanart.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/irmu/moria/master/_tools/lists/legolas/about.txt</externallink>
 </item>
 
 <item>
