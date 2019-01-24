@@ -1,0 +1,17 @@
+﻿############################################################## PORTUGAL, CARALHO!!! #######
+###########################################################################################
+<item>
+<title>[COLOR FFff8000][b]» LEGOLAS[/b][/COLOR]</title>
+<link>http://nopr0n</link>
+<thumbnail>https://raw.githubusercontent.com/irmu/legolas/master/_tools/art/icon.jpg</thumbnail>
+<fanart>https://raw.githubusercontent.com/irmu/legolas/master/_tools/art/fanart.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/irmu/legolas/master/_tools/lists/about.txt</externallink>
+</item>
+
+<item>
+<title>» MANUTENÇÃO</title>
+<link>http://nopr0n</link>
+<thumbnail>https://raw.githubusercontent.com/irmu/bola/master/_tools/art/agenda02.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/irmu/bola/master/_tools/art/stadium.jpg</fanart>
+<externallink>https://raw.githubusercontent.com/irmu/bola/master/_tools/lists/agendas_bola.txt</externallink>
+</item>

@@ -1,0 +1,26 @@
+﻿<item>
+<title>[COLOR FFff8000]"To the sea, to the sea![/COLOR]</title>
+            <meta>
+                <title>Ultimate Guide To Dune (Part 1) The Introduction</title>
+                <summary>The white gulls are crying, The wind is blowing, and the white foam is flying.
+West, west away, the round sun is falling, Grey ship, grey ship, do you hear them calling, 
+The voices of my people that have gone before me? I will leave, I will leave the woods that bore me;
+For our days are ending and our years failing. I will pass the wide waters lonely sailing.
+Long are the waves on the Last Shore falling, Sweet are the voices in the Lost Isle calling,
+In Eressea, in Elvenhome that no man can discover,
+Where the leaves fall not: land of my people forever!"</summary>
+            </meta>
+<link>http://nopr0n</link>
+<thumbnail>https://raw.githubusercontent.com/irmu/legolas/master/_tools/art/icon.jpg</thumbnail>
+<fanart>https://i.imgur.com/xtDfb70.jpg</fanart>
+</item>
+
+
+
+<item>
+<title>[COLOR FFff8000][B]2018.09.28[/B][/COLOR]
+» primeira build</title>
+<link>http://nopr0n</link>
+<thumbnail>https://raw.githubusercontent.com/irmu/legolas/master/_tools/art/icon.jpg</thumbnail>
+<fanart>https://i.imgur.com/xtDfb70.jpg</fanart>
+</item>

@@ -1,0 +1,42 @@
+############################################################## PORTUGAL, CARALHO!!! #######
+###########################################################################################
+<item>
+<title>[COLOR FFff8000][b]» LEGOLAS[/b][/COLOR]</title>
+<title>Istalar cenas iortantes</title>
+<link>http://nopr0n</link>
+<thumbnail>https://raw.githubusercontent.com/irmu/legolas/master/_tools/art/cog.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/irmu/legolas/master/_tools/art/fanart.jpg</fanart>
+<externallink></externallink>
+</item>
+
+<item>
+<title>MOBDRO</title>
+<link>http://nopr0n</link>
+<jsonrpc>plugin://script.module.mobdro</jsonrpc>
+<thumbnail>https://raw.githubusercontent.com/irmu/legolas/master/_tools/art/TV.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/irmu/legolas/master/_tools/art/fanart.jpg</fanart>
+</item>
+
+<item> 
+<title>LIVENET</title>
+<link>http://nopr0n</link>
+<jsonrpc>plugin://script.module.livenettv.net</jsonrpc>
+<thumbnail>https://raw.githubusercontent.com/irmu/legolas/master/_tools/art/TV.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/irmu/legolas/master/_tools/art/fanart.jpg</fanart>
+</item>
+
+<item>
+<title>Tv TAP</title>
+<link>http://nopr0n</link>
+<jsonrpc>plugin://plugin.video.tvtap</jsonrpc>
+<thumbnail>https://raw.githubusercontent.com/irmu/legolas/master/_tools/art/TV.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/irmu/legolas/master/_tools/art/fanart.jpg</fanart>
+</item> 
+
+<item>
+<title>SWIFTSTREAMZ</title>
+<link>http://nopr0n</link>
+<jsonrpc>plugin://script.module.swiftstreamz</jsonrpc>
+<thumbnail>https://raw.githubusercontent.com/irmu/legolas/master/_tools/art/TV.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/irmu/legolas/master/_tools/art/fanart.jpg</fanart>
+</item>
