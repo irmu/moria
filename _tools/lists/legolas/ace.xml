@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <item>
 <title>[COLOR FFff8000]» CANAIS & AGENDA ARENAVISION[/COLOR]</title>
 <link>http://nopr0n</link>
 <thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
 </item>
 <item>
-<title>[COLOR WHITE]••••••••••••••••••[/COLOR]</title>
+<title>[COLOR WHITE]••••••••••••••••••••••••••••••••••••••••••••••••••••••[/COLOR]</title>
 <link>http://nopr0n</link>
 </item>
 <item>
-<title>[COLOR FFff8000]» AGENDA ARENAVISION[/COLOR]</title>
+<title>[COLOR RED][B]» AGENDA ARENAVISION[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
@@ -40,7 +40,7 @@
 <thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
 </item>
 <item>
-<title>[COLOR WHITE]••••••••••••••••••[/COLOR]</title>
+<title>[COLOR WHITE]••••••••••••••••••••••••••••••••••••••••••••••••••••••[/COLOR]</title>
 <link>http://nopr0n</link>
 </item>
 <item>
@@ -48,7 +48,7 @@
 <link>http://nopr0n</link>
 </item>
 <item>
-<title>[COLOR lawngreen]> ARENAVISION  01[/COLOR]</title>
+<title>[COLOR lawngreen]> ARENAVISION 01[/COLOR]</title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=ARENAVISION 01 (PLEXUS)</link>
 <regex>
 <name>hash</name>
