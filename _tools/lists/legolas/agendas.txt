@@ -1,0 +1,17 @@
+############################################################## PORTUGAL, CARALHO!!! #######
+###########################################################################################
+<item> 
+<title>» LIVETV.ru</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/livefootballvideo.com.cfg&amp;mode=1</jsonrpc>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools_tools/art/foot.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools_tools/art/stadium.jpg</fanart>
+</item>
+
+<item> 
+<title>» FIRST ROW</title>
+<link>ignorme</link>
+<jsonrpc>plugin://plugin.video.SportsDevil/?item=url=livesports/firstrowsports.eu.cfg&amp;mode=1</jsonrpc>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools_tools/art/foot.png</thumbnail>
+<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools_tools/art/stadium.jpg</fanart>
+</item>
