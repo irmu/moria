@@ -5,7 +5,7 @@
 <thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
 </item>
 <item>
-<title>[COLOR WHITE]••••••••••••••••••[/B][/COLOR]</title>
+<title>[COLOR WHITE]••••••••••••••••••[/COLOR]</title>
 <link>http://nopr0n</link>
 </item>
 <item>
@@ -15,7 +15,7 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <SetViewMode>55</SetViewMode>
-<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5] [/B] [/COLOR][COLOR lightyellow] [makelist.param6] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
+<title>[COLOR lightgreen][makelist.param1] [/COLOR]  [COLOR deepskyblue][makelist.param2] [/COLOR][COLOR lightslategray][makelist.param3] [/COLOR] [COLOR skyblue][B][makelist.param5]  [/COLOR][COLOR lightyellow] [makelist.param6] [/COLOR]  [COLOR lightblue][[makelist.param4]] [/COLOR]</title>
 <link>plugin://program.plexus/?url=$doregex[hash]&amp;mode=1&amp;name=Teamblue+[makelist.param5]+Arenavision</link>
    <regex>
    <name>hash</name>
@@ -40,7 +40,11 @@
 <thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
 </item>
 <item>
-<title>[COLOR WHITE]••••••••••••••••••[/B][/COLOR]</title>
+<title>[COLOR WHITE]••••••••••••••••••[/COLOR]</title>
+<link>http://nopr0n</link>
+</item>
+<item>
+<title>[COLOR FFff8000]> STREAMS ARENAVISION[/COLOR]</title>
 <link>http://nopr0n</link>
 </item>
 <item>
