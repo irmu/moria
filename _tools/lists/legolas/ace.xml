@@ -9,7 +9,7 @@
 <link>http://nopr0n</link>
 </item>
 <item>
-<title>[COLOR #ff0000][B]»» AGENDA ARENAVISION[/B][/COLOR]</title>
+<title>[COLOR #ff0000][B]» AGENDA ARENAVISION[/B][/COLOR]</title>
 <link>$doregex[makelist]</link>
 <regex>
 <name>makelist</name>
