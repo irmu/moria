@@ -60,7 +60,7 @@
 
 <item>
 <title>[COLOR red]» BENFICATV[/COLOR]</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tvdesporto.info/play.php?canal=benficatv&amp$$lsname=LINK 01</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tvdesporto.info/play.php?canal=benficatv$$lsname=LINK 01</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://benficaholic2.blogspot.com/p/benfica-tv-ii.html$$lsname=LINK 02</link>
 <link>http://213.188.44.135:8036/play/a02c$$lsname=LINK 03</link>
 <thumbnail>https://i.imgur.com/3aevu7Z.jpg</thumbnail>      
