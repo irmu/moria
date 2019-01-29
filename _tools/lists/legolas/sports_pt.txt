@@ -8,7 +8,7 @@
 </item>
 
 <item>
-<title>[COLOR lawngreen]» SPORT TV 01[/COLOR]</title>
+<title>[COLOR lightgreen]» SPORT TV 01[/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv1.html$$lsname=LINK 01</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv1a.html$$lsname=LINK 02</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/2018/01/kanal-50.html$$lsname=LINK 03</link>
@@ -19,7 +19,7 @@
 </item>
 
 <item>
-<title>[COLOR lawngreen]» SPORT TV 02[/COLOR]</title>
+<title>[COLOR lightgreen]» SPORT TV 02[/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv2.html$$lsname=LINK 01</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv2a.html$$lsname=LINK 02</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/2018/01/kanal-51.html$$lsname=LINK 03</link>
@@ -31,7 +31,7 @@
 </item>
 
 <item>
-<title>[COLOR lawngreen]» SPORT TV 03[/COLOR]</title>
+<title>[COLOR lightgreen]» SPORT TV 03[/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv3.html$$lsname=LINK 01</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv3a.html$$lsname=LINK 02</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/2018/01/kanal-51.html$$lsname=LINK 03</link>
@@ -41,7 +41,7 @@
 </item>
 
 <item>
-<title>» SPORT TV 04</title>
+<title>[COLOR lightgreen]» SPORT TV 04[/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv4.html$$lsname=LINK 01</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv4a.html$$lsname=LINK 02</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/2018/06/k-s-s-pt-4.html$$lsname=LINK 03</link>
@@ -50,7 +50,7 @@
 </item>
 
 <item>
-<title>» SPORT TV 05</title>
+<title>[COLOR lightgreen]» SPORT TV 05[/COLOR]</title>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv5.html$$lsname=LINK 01</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv4a.html$$lsname=LINK 02</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/2018/06/k-s-s-pt-5.html$$lsname=DEVIL 01</link>
@@ -59,11 +59,10 @@
 </item>
 
 <item>
-<title>» BENFICATV</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://benficaholic2.blogspot.com/p/benfica-tv-online-stream.html$$lsname=LINK 01</link>
+<title>[COLOR red]» BENFICATV[/COLOR]</title>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://benficaholic2.blogspot.com/p/benfica-tv-online-stream.html$$lsname=LINK 01</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://benficaholic2.blogspot.com/p/benfica-tv-ii.html$$lsname=LINK 02</link>
 <link>http://213.188.44.135:8036/play/a02c$$lsname=LINK 03</link>
-<link>plugin://plugin.video.f4mTester/?url=http://213.188.44.135:8036/play/a02c$$lsname=LINK 04</link>
 <thumbnail>https://i.imgur.com/3aevu7Z.jpg</thumbnail>      
 <fanart>https://i.imgur.com/xtDfb70.jpg</fanart>        
 </item>
