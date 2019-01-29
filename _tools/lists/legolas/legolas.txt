@@ -10,7 +10,7 @@
 <item>
 <title>» CANAIS DESPORTO - PT</title>
 <link>http://nopr0n</link>
-<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools_tools/art/foot.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/foot.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/football.jpg</fanart>
 <externallink>https://raw.githubusercontent.com/irmu/moria/master/_tools/lists/legolas/sports_pt.txt</externallink>
 </item>

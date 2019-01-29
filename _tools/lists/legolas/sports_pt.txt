@@ -9,37 +9,36 @@
 
 <item>
 <title>» SPORT TV 01</title>
-<link>plugin://program.plexus/?url=acestream://efd141507ea2b52e220e9c2ddb61fbf2ce6e3b2a&amp;mode=1&amp;name=SPORT</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/channels/pt/sporttv1.html$$lsname=PRIOR 01</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://nowwatchtvlive.org/sport-tv1-em-direto-gratis-sport-tv1-portugal-live-online/$$lsname=PRIOR 02</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tugagratis.com/stv1.html?dll=001$$lsname=DEVIL 01</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sharecast.eu/embed.php?ch=live1-rbi6c$$lsname=DEVIL 02</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tugagratis.com/stv1.html?dll=001$$lsname=DEVIL 03</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tugagratis.com/a.html?dll=001$$lsname=DEVIL 04</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv1.html$$lsname=LINK 01</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv1a.html$$lsname=LINK 02</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/2018/01/kanal-50.html$$lsname=LINK 03</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sharecast.eu/embed.php?ch=live1-rbi6c$$lsname=LINK 03</link>
+<link>plugin://program.plexus/?url=acestream://5047b066445e31e29f8fc2be2529cb5437d212a8&amp;mode=1&amp;name=SPORT</link>
 <thumbnail>https://i.imgur.com/AqLD5Gs.png</thumbnail>
 <fanart>https://i.imgur.com/xtDfb70.jpg</fanart>
 </item>
 
 <item>
 <title>» SPORT TV 02</title>
-<link>plugin://program.plexus/?url=89122d5e60866e9127a5f3849170031b16402adc&amp;mode=1&amp;name=SPORT</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/channels/pt/sporttv2.html$$lsname=PRIOR 01</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://nowwatchtvlive.org/sport-tv2-em-direto-gratis-sport-tv2-portugal-live-online/$$lsname=PRIOR 02</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.pt/2018/01/sport-tv-2-l-2.html$$lsname=DEVIL 01</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv2.html$$lsname=LINK 01</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv2a.html$$lsname=LINK 02</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/2018/01/kanal-51.html$$lsname=LINK 03</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tugagratis.com/stv2.html?dll=001$$lsname=DEVIL 02</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tugagratis.com/2.html?dll=001$$lsname=DEVIL 03</link>
+<link>plugin://program.plexus/?url=857c7ab59305fdccd621b6525786fe925813568d&amp;mode=1&amp;name=SPORT</link>
 <thumbnail>https://i.imgur.com/AqLD5Gs.png</thumbnail>
 <fanart>https://i.imgur.com/xtDfb70.jpg</fanart>
 </item>
 
 <item>
 <title>» SPORT TV 03</title>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportsonline.pw/channels/pt/sporttv3.html$$lsname=PRIOR 01</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://nowwatchtvlive.org/sport-tv3-em-direto-gratis-sport-tv3-portugal-live-online/$$lsname=PRIOR 02</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv3.html$$lsname=LINK 01</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv3a.html$$lsname=LINK 02</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/2018/01/kanal-51.html$$lsname=LINK 03</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sharecast.eu/embed/live3-qszlx$$lsname=DEVIL 01</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tugagratis.com/stv3.html?dll=001$$lsname=DEVIL 02</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tugagratis.com/3.html?dll=001$$lsname=DEVIL 03</link>
-<link>plugin://program.plexus/?url=cf72f0fa0cee438cca43f2ea8299d04d1bf4c9d5&amp;mode=1&amp;name=SPORT</link>
+<link>plugin://program.plexus/?url=9ee63534669e7be54ccf59cae31d9a2b57e99aae&amp;mode=1&amp;name=SPORT</link>
 <thumbnail>https://i.imgur.com/AqLD5Gs.png</thumbnail>
 <fanart>https://i.imgur.com/xtDfb70.jpg</fanart>  
 </item>
@@ -50,7 +49,6 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://nowwatchtvlive.org/sport-tv4-em-direto-gratis-sport-tv4-portugal-live-online/$$lsname=PRIOR 02</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tugagratis.com/stv4.html?dll=001$$lsname=DEVIL 01</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tugagratis.com/4.html?dll=001$$lsname=DEVIL 02</link>
-<link>plugin://program.plexus/?url=cdaa987788a6140c4460fa050ce3032b79f7f2dc&amp;mode=1&amp;name=SPORT</link>
 <thumbnail>https://i.imgur.com/AqLD5Gs.png</thumbnail>       
 <fanart>https://i.imgur.com/xtDfb70.jpg</fanart>
 </item>
@@ -61,7 +59,6 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://nowwatchtvlive.org/sport-tv5-em-direto-gratis-sporttv5-portugal-live-online/$$lsname=PRIOR 02</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tugagratis.com/stv5.html?dll=001$$lsname=DEVIL 01</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tugagratis.com/5.html?dll=001$$lsname=DEVIL 02</link>
-<link>plugin://program.plexus/?url=ac9b79763f3c52212db363acec782d794b8f1232&amp;mode=1&amp;name=SPORT</link>
 <thumbnail>https://i.imgur.com/AqLD5Gs.png</thumbnail>      
 <fanart>https://i.imgur.com/xtDfb70.jpg</fanart>        
 </item>
