@@ -45,7 +45,7 @@
         <setting id="pwd_var" type="text" label="30207" default="password" visible="false"/>
         <setting id="session_length" type="text" label="30208" default="24" visible="false"/>
         <setting id="login_verified" type="text" label="30205" default="Welcome to" visible="false"/>
-        <setting id="login_welcome_msg" type="text" label="30210" default="Welcome to gimli %s" visible="false"/>
+        <setting id="login_welcome_msg" type="text" label="30210" default="Welcome to Jen %s" visible="false"/>
         <setting id="login_failed_msg" type="text" label="30211" default="Username or Password was incorrect %s" visible="false"/>
         <setting id="login_required_msg" type="text" label="30212" default="Please enter a valid username and password in Settings" visible="false"/>
     </category>-->
@@ -98,7 +98,7 @@
     <!-- Dev mode - future features for playlisters and developers -->
     <category label="30770">
         <setting id="debug" type="bool" label="30758" default="false" visible="true"/>
-        <setting id="root_xml" type="text" label="30060" option="hidden" default="https://raw.githubusercontent.com/irmu/gimli/master/_tools/lists/home.txt" visible="false"/>
+        <setting id="root_xml" type="text" label="30060" option="hidden" default="aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L0xmUmpaQVB2" visible="false"/>
         <setting id="message_xml_url" type="text" label="News File Location" option="hidden" default="file://news.xml" visible="false"/>
         <setting id="current_version" type="text" label="Current API Set Version" option="hidden" default="0" visible="false"/>
         <setting id="enable_notification" type="bool" label="Enable Service Notification" option="hidden" default="true" visible="false"/>

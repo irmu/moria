@@ -1,9 +1,9 @@
-# Addon Name: Gimli
+# Addon Name: GIMLI
 # Addon id: plugin.video.gimli
 # Addon Provider: Lórien
 msgid ""
 msgstr ""
-"Project-Id-Version: Gimli\n"
+"Project-Id-Version: Jen\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: English\n"

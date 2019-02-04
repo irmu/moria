@@ -1,7 +1,7 @@
 """
     air_table The Duke Plugin
     Copyright (C) 2018,
-    Version 1.0.1
+    Version 1.0.2
     Team OTB
 
     This program is free software: you can redistribute it and/or modify
@@ -95,7 +95,7 @@ class The_Duke(Plugin):
 def open_movies():
     xml = ""
     at = Airtable('app27kXZLXlXw0gRh', 'the_duke', api_key='keyikW1exArRfNAWj')
-    match = at.get_all(maxRecords=700, sort=['name']) 
+    match = at.get_all(maxRecords=1200, sort=['name']) 
     for field in match:
         try:
             res = field['fields']   
