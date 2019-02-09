@@ -79,13 +79,13 @@
         </extension>
     </addon>
 
-<addon id="script.gandalf" name="GANDALF" version="2018.08.08" provider-name="Lórien">
+<addon id="script.gandalf" name="GANDALF" version="2018.12.31" provider-name="Lórien">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.requests" version="1.0.0" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
-     <provides>video executable</provides>
+     <provides>executable</provides>
   </extension>
   <extension point="xbmc.service" library="service.py" start="startup" />
   <extension point="xbmc.addon.metadata">
