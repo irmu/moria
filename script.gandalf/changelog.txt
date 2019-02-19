@@ -1,3 +1,5 @@
+v2018.12.31
+new art and new defaults
 v2018.08.08
 Initial spin
 v1.0

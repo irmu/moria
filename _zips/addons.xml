@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.gimli" name="GIMLI" version="2019.02.02" provider-name="Lórien">
+<addon id="plugin.video.gimli" name="GIMLI" version="2019.02.03" provider-name="Lórien">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
