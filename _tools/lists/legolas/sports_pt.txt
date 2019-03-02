@@ -1,7 +1,7 @@
 ﻿############################################################## PORTUGAL, CARALHO!!! #######
 ###########################################################################################
 <item>
-<title>[COLOR FFff8000][B]» LINKS actualizados - 2019.01.31[/B][/COLOR]</title>
+<title>[COLOR FFff8000][B]» LINKS actualizados - 2019.03.02[/B][/COLOR]</title>
 <link>http://nopr0n</link>
 <thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/foot.png</thumbnail>
 <fanart>https://i.imgur.com/xtDfb70.jpg</fanart>
@@ -13,7 +13,6 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv1a.html$$lsname=LINK 02</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportzonline.pw/channels/pt/sporttv1.php$$lsname=LINK 03</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/2018/01/kanal-50.html$$lsname=LINK 04</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sharecast.eu/embed.php?ch=live1-rbi6c$$lsname=LINK 05</link>
 <link>plugin://program.plexus/?url=acestream://5047b066445e31e29f8fc2be2529cb5437d212a8&amp;mode=1&amp;name=SPORT</link>
 <thumbnail>https://i.imgur.com/AqLD5Gs.png</thumbnail>
 <fanart>https://i.imgur.com/xtDfb70.jpg</fanart>
@@ -56,7 +55,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv5.html$$lsname=LINK 01</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv5a.html$$lsname=LINK 02</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportzonline.pw/channels/pt/sporttv5.php$$lsname=LINK 03</link>
-<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/2018/06/k-s-s-pt-5.html$$lsname=DEVIL 01</link>
+<link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/2018/06/k-s-s-pt-5.html$$lsname=LINK 04</link>
 <thumbnail>https://i.imgur.com/AqLD5Gs.png</thumbnail>      
 <fanart>https://i.imgur.com/xtDfb70.jpg</fanart>        
 </item>
@@ -66,54 +65,6 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://tvdesporto.info/play.php?canal=benficatv$$lsname=LINK 01</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=https://benficaholic2.blogspot.com/p/benfica-tv-ii.html$$lsname=LINK 02</link>
 <link>http://213.188.44.135:8036/play/a02c$$lsname=LINK 03</link>
-<thumbnail>https://i.imgur.com/3aevu7Z.jpg</thumbnail>      
-<fanart>https://i.imgur.com/xtDfb70.jpg</fanart>        
-</item>
-
-<item>
-<title>[COLOR lightgreen]» ELEVEN SPORTS 01[/COLOR]</title>
-<link>http://mototeamtv.tk:8000/live/AnelHasanovic/F3fl9G3Tfp/13678.m3u8$$lsname=LINK 01</link>
-<link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=LINK 02</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/hhudt</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=LINK 02</link>
-<thumbnail>https://i.imgur.com/3aevu7Z.jpg</thumbnail>      
-<fanart>https://i.imgur.com/xtDfb70.jpg</fanart>        
-</item>
-
-<item>
-<title>[COLOR lightgreen]» ELEVEN SPORTS 02[/COLOR]</title>
-<link>http://mototeamtv.tk:8000/live/AnelHasanovic/F3fl9G3Tfp/13679.m3u8$$lsname=LINK 01</link>
-<link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=LINK 02</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/8efw5pjtkz</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=LINK 02</link>
-<thumbnail>https://i.imgur.com/3aevu7Z.jpg</thumbnail>      
-<fanart>https://i.imgur.com/xtDfb70.jpg</fanart>        
-</item>
-
-<item>
-<title>[COLOR lightgreen]» ELEVEN SPORTS 03[/COLOR]</title>
-<link>http://mototeamtv.tk:8000/live/AnelHasanovic/F3fl9G3Tfp/13680.m3u8$$lsname=LINK 01</link>
-<link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=LINK 02</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/xilltxm4l179w22</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=LINK 02</link>
-<thumbnail>https://i.imgur.com/3aevu7Z.jpg</thumbnail>      
-<fanart>https://i.imgur.com/xtDfb70.jpg</fanart>        
-</item>
-
-<item>
-<title>[COLOR lightgreen]» ELEVEN SPORTS 04[/COLOR]</title>
-<link>http://mototeamtv.tk:8000/live/AnelHasanovic/F3fl9G3Tfp/13681.m3u8$$lsname=LINK 01</link>
-<link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=LINK 02</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/rffdh5i</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=LINK 02</link>
-<thumbnail>https://i.imgur.com/3aevu7Z.jpg</thumbnail>      
-<fanart>https://i.imgur.com/xtDfb70.jpg</fanart>        
-</item>
-
-<item>
-<title>[COLOR lightgreen]» ELEVEN SPORTS 05[/COLOR]</title>
-<link>http://mototeamtv.tk:8000/live/AnelHasanovic/F3fl9G3Tfp/13682.m3u8$$lsname=LINK 01</link>
-<link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=LINK 02</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/4xwxr</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=LINK 02</link>
-<thumbnail>https://i.imgur.com/3aevu7Z.jpg</thumbnail>      
-<fanart>https://i.imgur.com/xtDfb70.jpg</fanart>        
-</item>
-
-<item>
-<title>[COLOR lightgreen]» ELEVEN SPORTS 06[/COLOR]</title>
-<link>http://mototeamtv.tk:8000/live/AnelHasanovic/F3fl9G3Tfp/13683.m3u8$$lsname=LINK 01</link>
-<link><link>$doregex[geturl]|User-Agent=Mozilla/5.0 (iPad; CPU OS 6_0 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) Version/6.0 Mobile/10A5376e Safari/8536.25$$lsname=LINK 02</link><regex><name>geturl</name><expres>source:"(.*?)"</expres><page>$doregex[getunpacked]</page></regex><regex><name>getunpacked</name><expres>$pyFunction:get_unpacked(page_data,'(eval\(function\(p,a,c,k,e,d.*)' )</expres><page>https://whostreams.net/embed/vsdicz</page><agent>Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_2_1 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8C148 Safari/6533.18.5</agent><referer>https://whostreams.net/</referer><connection>keep-alive</connection></regex>$$lsname=LINK 02</link>
 <thumbnail>https://i.imgur.com/3aevu7Z.jpg</thumbnail>      
 <fanart>https://i.imgur.com/xtDfb70.jpg</fanart>        
 </item>
