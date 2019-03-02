@@ -12,7 +12,7 @@
 <link>http://nopr0n</link>
 <thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/foot.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/football.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/irmu/moria/master/_tools/lists/legolas/sports_pt.txt</externallink>
+<externallink>https://pastebin.com/raw/kZ8DD5hV</externallink>
 </item>
 
 <item>
@@ -20,7 +20,7 @@
 <link>http://nopr0n</link>
 <thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/stadium.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/irmu/moria/master/_tools/lists/legolas/ace.xml</externallink>
+<externallink>https://pastebin.com/raw/6D0vCesW</externallink>
 </item>
 
 <item>
@@ -28,7 +28,7 @@
 <link>http://nopr0n</link>
 <thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
 <fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/football.jpg</fanart>
-<externallink>https://raw.githubusercontent.com/irmu/moria/master/_tools/lists/legolas/agendas.txt</externallink>
+<externallink>https://pastebin.com/raw/sfVDM64Q</externallink>
 </item>
 
 <item>
@@ -40,7 +40,7 @@
 </item>
 
 <item>
-<title>» MANUTENÇÃO [em construção]</title>
+<title>[COLOR FFff8000]» MANUTENÇÃO [em construção][/COLOR]</title>
 <link>http://nopr0n</link>
 <thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools_tools/art/agenda02.png</thumbnail>
 <fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/fanart.jpg</fanart>

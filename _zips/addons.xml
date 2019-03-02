@@ -30,9 +30,8 @@
     </extension>
 </addon>
 
-<addon id="plugin.video.legolas" name="Legolas" version="2019.01.28" provider-name="Lórien">
+<addon id="plugin.video.legolas" name="Legolas" version="2019.03.02" provider-name="Lórien">
   <requires>
-	<import addon="repository.arda" version="1.0.0"/>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.beautifulsoup" version="3.2.1"/>
 	<import addon="script.module.simple.downloader" version="0.9.4"/>
@@ -40,16 +39,9 @@
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
     <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-    <import addon="script.module.youtube.dl" />
 	<import addon="script.module.urlresolver" />
     <import addon="script.module.simplejson" />
     <import addon="script.module.livestreamer" optional="true"/>
-	<import addon="plugin.video.avezy" optional="true" />
-	<import addon="script.video.F4mProxy" optional="true"/>
-	<import addon="plugin.video.f4mTester" optional="true" />
-	<import addon="plugin.video.SportsDevil" optional="true" />
-	<import addon="plugin.video.youtube" optional="true" />
-	<import addon="program.plexus" optional="true" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
@@ -61,10 +53,7 @@
   </extension>
 </addon>
 
-    <addon id="repository.moria" name="Moria Repository" version="2018.10.05" provider-name="Irmu">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
+    <addon id="repository.moria" name="Moria Repository" version="2019.03.02" provider-name="Irmu">
         <extension point="xbmc.addon.repository" name="Moria Repository">
             <info compressed="false">https://raw.githubusercontent.com/irmu/moria/master/_zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/irmu/moria/master/_zips/addons.xml.md5</checksum>
@@ -73,9 +62,8 @@
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>Moria Repository</summary>
-            <description>The Doors of Durin, Lord of Moria. Speak, friend, and enter. I, Narvi, made them. Celebrimbor of Hollin drew these signs.</description>
+            <description>The Doors of Durin, Lord of Moria. Speak, friend, and enter.</description>
             <platform>all</platform>
-            <genre>movies,usa</genre>
         </extension>
     </addon>
 

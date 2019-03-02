@@ -14,7 +14,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportzonline.pw/channels/pt/sporttv1.php$$lsname=LINK 03</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/2018/01/kanal-50.html$$lsname=LINK 04</link>
 <link>plugin://program.plexus/?url=acestream://5047b066445e31e29f8fc2be2529cb5437d212a8&amp;mode=1&amp;name=SPORT</link>
-<thumbnail>https://i.imgur.com/AqLD5Gs.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/stv1.png</thumbnail>
 <fanart>https://i.imgur.com/xtDfb70.jpg</fanart>
 </item>
 
@@ -25,7 +25,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/2018/01/kanal-51.html$$lsname=LINK 03</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportzonline.pw/channels/pt/sporttv2.php$$lsname=LINK 04</link>
 <link>plugin://program.plexus/?url=857c7ab59305fdccd621b6525786fe925813568d&amp;mode=1&amp;name=SPORT</link>
-<thumbnail>https://i.imgur.com/AqLD5Gs.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/stv2.png</thumbnail>
 <fanart>https://i.imgur.com/xtDfb70.jpg</fanart>
 </item>
 
@@ -36,7 +36,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportzonline.pw/channels/pt/sporttv3.php$$lsname=LINK 03</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/2018/01/kanal-51.html$$lsname=LINK 04</link>
 <link>plugin://program.plexus/?url=9ee63534669e7be54ccf59cae31d9a2b57e99aae&amp;mode=1&amp;name=SPORT</link>
-<thumbnail>https://i.imgur.com/AqLD5Gs.png</thumbnail>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/stv3.png</thumbnail>
 <fanart>https://i.imgur.com/xtDfb70.jpg</fanart>  
 </item>
 
@@ -46,7 +46,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv4a.html$$lsname=LINK 02</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportzonline.pw/channels/pt/sporttv4.php$$lsname=LINK 03</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/2018/06/k-s-s-pt-4.html$$lsname=LINK 04</link>
-<thumbnail>https://i.imgur.com/AqLD5Gs.png</thumbnail>       
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/stv4.png</thumbnail>       
 <fanart>https://i.imgur.com/xtDfb70.jpg</fanart>
 </item>
 
@@ -56,7 +56,7 @@
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://www.ligatuga.com/stv5a.html$$lsname=LINK 02</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://sportzonline.pw/channels/pt/sporttv5.php$$lsname=LINK 03</link>
 <link>plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3Dstreams%26url=http://2cfazefoot.blogspot.com/2018/06/k-s-s-pt-5.html$$lsname=LINK 04</link>
-<thumbnail>https://i.imgur.com/AqLD5Gs.png</thumbnail>      
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/stv5.png</thumbnail>      
 <fanart>https://i.imgur.com/xtDfb70.jpg</fanart>        
 </item>
 

@@ -20,8 +20,8 @@
    <regex>
    <name>hash</name>
    <expres>this.loadPlayer\("(.*?)"</expres>
-   <page>http://cdn1.arenavision.link/$doregex[canal]</page>
-   <referer>http://cdn1.arenavision.link</referer>
+   <page>http://arenavision.us/$doregex[canal]</page>
+   <referer>http://arenavision.us</referer>
    <setcookie>beget=begetok</setcookie>
    </regex>
    <regex>
@@ -32,7 +32,7 @@
    <thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/legolas/av.jpg</thumbnail>
 ]]></listrepeat>
 <expres><![CDATA[87px\">(.*?)<[\w\W\s]{0,30}">(.*?)<[\w\W\s]{0,32}">(.*?)<[\w\W\s]{0,32}">(.*?)<[\w\W\s]{0,32}">(.*?)<[\w\W\s]{0,52}"(>[0-9]+)]]></expres>
-<page>http://arenavision.in/guide</page>
+<page>http://arenavision.us/guide</page>
 <Agent>Mozilla</Agent>
 <referer>http://cdn1.arenavision.link</referer>
 <setcookie>beget=begetok</setcookie>
