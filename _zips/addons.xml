@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.gimli" name="GIMLI" version="2019.03.01a" provider-name="Lórien">
+<addon id="plugin.video.gimli" name="GIMLI" version="2019.03.01c" provider-name="Lórien">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -11,6 +11,8 @@
         <import addon="script.module.xmltodict" version="0.9.0" />
         <import addon="script.module.dateutil" />
         <import addon="script.module.resolveurl" />
+		<import addon="plugin.video.reddit_viewer" />
+		<import addon="plugin.video.live.streamspro" />
 		<import addon="plugin.video.youtube" version="3.0.0"/>
 		<!--<import addon="script.module.web-pdb" version="1.0"/>-->
 

@@ -1,0 +1,55 @@
+#EXTM3U
+#EXTINF:0,Telemundo 48 San Fran
+http://50.116.9.199/master.m3u8?id=25190
+#EXTINF:0,Fox Deportes
+http://50.116.9.199/master.m3u8?id=12822
+#EXTINF:0,Nat Geo Mundo
+http://50.116.9.199/master.m3u8?id=14924
+#EXTINF:0,Telemundo
+http://50.116.9.199/master.m3u8?id=16527
+#EXTINF:0,Discovery en Espanol
+http://50.116.9.199/master.m3u8?id=24991
+#EXTINF:0,Telemundo 47
+http://50.116.9.199/master.m3u8?id=25063
+#EXTINF:0,Telemundo 44
+http://50.116.9.199/master.m3u8?id=25064
+#EXTINF:0,Telemundo 52
+http://50.116.9.199/master.m3u8?id=25065
+#EXTINF:0,Telemundo 62
+http://50.116.9.199/master.m3u8?id=25120
+#EXTINF:0,Telemundo 39 Dallas
+http://50.116.9.199/master.m3u8?id=25216
+#EXTINF:0,Telemundo 51
+http://50.116.9.199/master.m3u8?id=25221
+#EXTINF:0,FOX Life
+http://50.116.9.199/master.m3u8?id=25034
+#EXTINF:0,Telemundo Houston
+http://50.116.9.199/master.m3u8?id=25247
+#EXTINF:0,Telemundo Boston
+http://50.116.9.199/master.m3u8?id=25333
+#EXTINF:0,Telemundo Tucson
+http://50.116.9.199/master.m3u8?id=25334
+#EXTINF:0,Telemundo San Antonio
+http://50.116.9.199/master.m3u8?id=25335
+#EXTINF:0,Telemundo 40
+http://50.116.9.199/master.m3u8?id=25336
+#EXTINF:0,Telemundo Las Vegas
+http://50.116.9.199/master.m3u8?id=25338
+#EXTINF:0,Telemundo Denver
+http://50.116.9.199/master.m3u8?id=25339
+#EXTINF:0,Telemundo 51
+http://50.116.9.199/master.m3u8?id=25340
+#EXTINF:0,Telemundo Phoenix
+http://50.116.9.199/master.m3u8?id=25341
+#EXTINF:0,Universo
+http://50.116.9.199/master.m3u8?id=25361
+#EXTINF:0,CNN en Espanol
+http://50.116.9.199/master.m3u8?id=25365
+#EXTINF:0,CINE SONY
+http://50.116.9.199/master.m3u8?id=25367
+#EXTINF:0,Universo
+http://50.116.9.199/master.m3u8?id=25372
+#EXTINF:0,Discovery Familia
+http://50.116.9.199/master.m3u8?id=25375
+#EXTINF:0,ESPN Goal Line
+http://50.116.9.199/master.m3u8?id=25534
