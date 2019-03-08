@@ -1,0 +1,43 @@
+################################################################ PORTUGAL, CARALHO!!! #####
+###########################################################################################
+<poster>GIMLI</poster>
+###########################################################################################
+******* this list was made with love. If you use it or share it, please credit it :) ******
+************************************ sharing is caring ************************************
+*** main menu
+
+<dir>
+     <name>[COLOR FFff8000][B]GIMLI[/B][/COLOR] » DESPORTO</name>
+     <link>aHR0cHM6Ly9wYXN0ZWJpbi5jb20vcmF3L3gzQXlLQ1Qw</link>
+     <thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/foot.png</thumbnail>
+	 <summary>Secção desportiva</summary>
+</dir>
+
+<dir>
+     <name>[COLOR FFff8000][B]GIMLI[/B][/COLOR] » FILMES</name>
+     <link>file://movies.xml</link>
+     <thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/clapper.png</thumbnail>
+	 <summary>Secção cinéfila</summary>
+</dir>
+
+<dir>
+     <name>[COLOR FFff8000][B]GIMLI[/B][/COLOR] » SÉRIES</name>
+     <link>file://series.xml</link>
+     <thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/TV.png</thumbnail>
+	 <summary>Séries de televisão</summary>
+</dir>
+
+<dir>
+     <name>[COLOR FFff8000][B]GIMLI[/B][/COLOR] » DOCUMENTÁRIOS</name>
+     <link>file://docs.xml</link>
+     <thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/camera.png</thumbnail>
+	 <summary>Secção documental</summary>
+</dir>
+
+*** SETTINGS ***
+<plugin>
+<name>[COLOR FFff8000][B]GIMLI[/B][/COLOR] » Settings</name>
+<link>plugin://plugin.video.gimli/?action=openSettings</link>
+<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/cog.png</thumbnail>
+<summary>GIMLI Settings</summary>
+</plugin>
