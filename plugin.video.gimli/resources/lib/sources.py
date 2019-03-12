@@ -15,6 +15,11 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+        Updated: For Jen 2.0
+        2019.11.03
+            - Updated sources.py to include torrents and magnet links
 """
 import random
 
@@ -794,7 +799,7 @@ def get_sources(item):
                     exclude=exclude_scrapers,
                     player=jenplayer,
                 )
-        elif preset.startswith("http") or preset.startswith("plugin"):
+        elif preset.startswith("http") or preset.startswith("plugin") or preset.endswith('.torrent') or preset.startswith('magnet'):
             # direct link
             if "/playlist" in preset and "youtube" in preset:
                 busy_dialog.close()
@@ -815,7 +820,8 @@ def get_sources(item):
                     item=listitem,
                     player=jenplayer,
                     resolver=resolveurl,
-                )
+                )      
+                
         else:
             # who knows
             busy_dialog.close()
