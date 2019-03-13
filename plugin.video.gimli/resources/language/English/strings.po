@@ -1,9 +1,9 @@
-# Addon Name: GIMLI
-# Addon id: plugin.video.gimli
-# Addon Provider: Lórien
+# Addon Name: Gimli
+# Addon id: plugin.video.Gimli
+# Addon Provider: Gimli
 msgid ""
 msgstr ""
-"Project-Id-Version: Jen\n"
+"Project-Id-Version: Gimli\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Language-Team: English\n"
@@ -556,7 +556,7 @@ msgid "Resume"
 msgstr ""
 
 msgctxt "#32504"
-msgid "EIMify Your Jen"
+msgid "EIMify Your Gimli"
 msgstr ""
 
 msgctxt "#32505"
@@ -588,7 +588,7 @@ msgid "Select Link"
 msgstr ""
 
 msgctxt "#32512"
-msgid "Choose Jen Theme"
+msgid "Choose Gimli Theme"
 msgstr ""
 
 msgctxt "#32513"
