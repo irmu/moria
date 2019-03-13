@@ -16,19 +16,10 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
- Update :2019-3-11
- Version 2.0 Jen
-    Updated to include torrent and magnet links in xml
 
-<title>[/COLOR]</title>
-<link>
-<sublink>magnet:?xt=urn:btih:9CA50DA836B52A6BCB06AAA91BB2478FD96F5DD0&dn=A+Beautiful+Mind+%282001%29+1080p+BrRip+x264+-+YIFY</sublink>
-</link>
-<thumbnail></thumbnail>
-<fanart></fanart>
-</item>
-
-
+        Updated: For Jen 2.0
+        2019.11.03
+            - Updated sources.py to include torrents and magnet links
 """
 import random
 

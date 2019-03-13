@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.gimli" name="GIMLI" version="2019.03.13c" provider-name="Lórien">
+<addon id="plugin.video.gimli" name="GIMLI" version="2019.03.133" provider-name="Lórien">
     <requires>
 <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
@@ -18,7 +18,7 @@
         <!--<import addon="script.module.urlresolver" />-->
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>audio video</provides>
+        <provides>video</provides>
     </extension>
     <extension point="xbmc.service" library="service.py" start="[login|startup]" />
     <extension point="xbmc.addon.metadata">
