@@ -1,5 +1,5 @@
 # Addon Name: Gimli
-# Addon id: plugin.video.Gimli
+# Addon id: plugin.video.gimli
 # Addon Provider: Gimli
 msgid ""
 msgstr ""
