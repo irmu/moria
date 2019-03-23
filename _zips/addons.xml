@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon
-  id="plugin.video.Beorn"
-  version="2010.03.15"
+  id="plugin.video.beorn"
+  version="2019.03.15bb"
   name="Beorn"
-  provider-name="Beorn">
+  provider-name="Lórien">
   <requires>
    <import addon="xbmc.python" version="2.14.0"/>
    <import addon="script.module.dateutil" />
