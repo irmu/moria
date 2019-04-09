@@ -1,35 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon
-  id="plugin.video.beorn"
-  version="2019.03.15bb"
-  name="Beorn"
-  provider-name="Lórien">
-  <requires>
-   <import addon="xbmc.python" version="2.14.0"/>
-   <import addon="script.module.dateutil" />
-   <import addon="script.module.simplejson" />
-   <import addon="script.module.six" />
-   <import addon="script.module.requests" />
-   <import addon="plugin.video.f4mTester" />
-   <import addon="script.module.slproxy" version="0.0.5"/>
-  </requires>
-  <extension
-    point="xbmc.python.pluginsource"
-    library="default.py">
-   <provides>video</provides>
-  </extension>
-  <!-- <extension point="xbmc.service" library="service/streamlink_proxy.py" /> -->
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Beorn</summary>
-    <description lang="en">SportsDevil wanna be fork</description>
-    <disclaimer lang="en">There can only be one.</disclaimer>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.gimli" name="GIMLI" version="2019.03.23" provider-name="Lórien">
+<addon id="plugin.video.gimli" name="GIMLI" version="2019.04.08" provider-name="Lórien">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
         <import addon="script.module.universalscrapers" version="1.0.0" />
