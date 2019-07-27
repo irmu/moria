@@ -17,6 +17,9 @@
         This is a scraper plugin for a specific specialty site
 
     Version:
+        2019.7.23:
+            - Updated Clear Cache function to make use of "quiet_cache"
+            
         2018.8.7:
             - Initial Release
 
@@ -257,15 +260,19 @@ class MovieTorture(Plugin):
             result_item['fanart_small'] = result_item["fanart"]
             return result_item
 
-
     def clear_cache(self):
+        skip_prompt = xbmcaddon.Addon().getSetting("quiet_cache")
         dialog = xbmcgui.Dialog()
-        if dialog.yesno(xbmcaddon.Addon().getAddonInfo('name'), "Clear Movie Torture Plugin Cache?"):
+        if skip_prompt == 'false':
+            if dialog.yesno(xbmcaddon.Addon().getAddonInfo('name'), "Clear Movie Torture Plugin Cache?"):
+                koding.Remove_Table("mtorture_plugin")
+        else:
             koding.Remove_Table("mtorture_plugin")
 
 
 @route(mode='MTortureByCat', args=["url"])
 def get_MTortureByCat(url):
+    pins = ""
     category = url.split('/')[1]
     page_id = url.split('/')[2]
 
@@ -329,11 +336,12 @@ def get_MTortureByCat(url):
             pass
 
     jenlist = JenList(xml)
-    display_list(jenlist.get_list(), jenlist.get_content_type())
+    display_list(jenlist.get_list(), jenlist.get_content_type(), pins)
 
 
 @route(mode='MTortureByTag', args=["url"])
 def get_MTortureByTag(url):
+    pins = ""
     tag_id = url.split('/')[1]
     page_id = url.split('/')[2]
 
@@ -392,7 +400,7 @@ def get_MTortureByTag(url):
             pass
 
     jenlist = JenList(xml)
-    display_list(jenlist.get_list(), jenlist.get_content_type())
+    display_list(jenlist.get_list(), jenlist.get_content_type(), pins)
 
 
 @route(mode='PlayMTorture', args=["url"])

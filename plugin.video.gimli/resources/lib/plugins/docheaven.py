@@ -16,6 +16,9 @@
         Drop this PY in the plugins folder. See examples below on use.
 
     Version:
+        2019.7.23:
+            - Updated Clear Cache function to make use of "quiet_cache"
+            
         2018.7.2:
             - Added Clear Cache function
             - Minor update on fetch cache returns
@@ -252,7 +255,6 @@ CACHE_TIME = 10800  # change to wanted cache time in seconds
 addon_id = xbmcaddon.Addon().getAddonInfo('id')
 addon_fanart = xbmcaddon.Addon().getAddonInfo('fanart')
 addon_icon   = xbmcaddon.Addon().getAddonInfo('icon')
-headers = {'User_Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36'}
 
 docu_link = 'http://documentaryheaven.com'
 docu_cat_list = 'http://documentaryheaven.com/category/'
@@ -309,12 +311,17 @@ class DocuHeaven(Plugin):
             return result_item
 
     def clear_cache(self):
+        skip_prompt = xbmcaddon.Addon().getSetting("quiet_cache")
         dialog = xbmcgui.Dialog()
-        if dialog.yesno(xbmcaddon.Addon().getAddonInfo('name'), "Clear Documentary Heaven Plugin Cache?"):
+        if skip_prompt == 'false':
+            if dialog.yesno(xbmcaddon.Addon().getAddonInfo('name'), "Clear Documentary Heaven Plugin Cache?"):
+                koding.Remove_Table("docuheaven_com_plugin")
+        else:
             koding.Remove_Table("docuheaven_com_plugin")
 
 @route(mode='DHCats', args=["url"])
 def get_DHcats(url):
+    pins = ""
     url = url.replace('dhcategory/', '') # Strip our category tag off.
     orig_cat = url.split("/")[0]
     url = urlparse.urljoin(docu_cat_list, url)
@@ -323,7 +330,7 @@ def get_DHcats(url):
     if not xml:
         xml = ""
         try:
-            html = requests.get(url,headers=headers).content
+            html = requests.get(url).content
             doc_list = dom_parser.parseDOM(html, 'article')
             for content in doc_list:
                 try:
@@ -338,7 +345,7 @@ def get_DHcats(url):
                         docu_icon = re.compile('src="(.+?)"',re.DOTALL).findall(content)[0]
 
                     docu_url = re.compile('href="(.+?)"',re.DOTALL).findall(docu_info)[0]
-                    docu_html = requests.get(docu_url,headers=headers).content
+                    docu_html = requests.get(docu_url).content
 
                     try:
                         docu_item = dom_parser.parseDOM(docu_html, 'meta', attrs={'itemprop':'embedUrl'}, ret='content')[0]
@@ -370,7 +377,7 @@ def get_DHcats(url):
                                    "    <summary>%s</summary>"\
                                    "</item>" % (docu_title,docu_url,docu_icon,docu_summary)
                     elif 'archive.org/embed' in docu_url:
-                        docu_html = requests.get(docu_url,headers=headers).content
+                        docu_html = requests.get(docu_url).content
                         video_element = dom_parser.parseDOM(docu_html, 'source', ret='src')[0]
                         docu_url = urlparse.urljoin('https://archive.org/', video_element)
                         xml += "<item>"\
@@ -412,7 +419,7 @@ def get_DHcats(url):
         save_to_db(xml, url)
 
     jenlist = JenList(xml)
-    display_list(jenlist.get_list(), jenlist.get_content_type())
+    display_list(jenlist.get_list(), jenlist.get_content_type(), pins)
 
 
 def save_to_db(item, url):
