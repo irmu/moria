@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="base" name="[COLOR cyan]BASE[/COLOR]" version="1.0.0" provider-name="[COLOR red]ZACHARiAS[/COLOR]">
+<addon id="base" name="[COLOR cyan]NIMBLE[/COLOR]" version="27.07.2019" provider-name="[COLOR red]IRMU[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>

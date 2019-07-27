@@ -14,7 +14,7 @@ USER_AGENT = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-GB; rv:1.9.0.3) Gecko/
 base='YOUR SITE HERE'
 ADDON=xbmcaddon.Addon(id='nimble')
 dialog = xbmcgui.Dialog()    
-VERSION = "1.0.2"
+VERSION = "27.07.2019"
 PATH = "nimble"            
 
     
