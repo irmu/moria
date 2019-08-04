@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="base" name="[COLOR cyan]NIMBLE[/COLOR]" version="27.07.2019" provider-name="[COLOR red]IRMU[/COLOR]">
+<addon id="nimble" name="[COLOR cyan]NIMBLE[/COLOR]" version="27.07.2019" provider-name="[COLOR red]IRMU[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
