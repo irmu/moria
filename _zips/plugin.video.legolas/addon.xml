@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.legolas" name="Legolas" version="2019.03.02" provider-name="Lórien">
+<addon id="plugin.video.legolas" name="Legolas" version="2020.01.15" provider-name="Lórien">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
 	<import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -8,8 +8,7 @@
     <import addon="script.module.requests" />
     <import addon="script.module.httplib2" />
     <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-	<import addon="script.module.urlresolver" />
-    <import addon="script.module.simplejson" />    
+	<import addon="script.module.simplejson" />    
     <import addon="script.module.livestreamer" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
