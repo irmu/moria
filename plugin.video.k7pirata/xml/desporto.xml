@@ -1,0 +1,31 @@
+<k7pirata>
+	<desportosd>
+		<dir>
+			<name>CANAIS DESPORTO [PT]</name>
+			<link>https://pastebin.com/raw/bEC4PMK3</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/foot.png</thumbnail>
+			<summary>Canais de desporto nacionais</summary>  
+		</dir>
+ 
+		<dir>
+			<name>AGENDAS DESPORTIVAS</name>
+			<link>https://pastebin.com/raw/2MwbnXSj</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/agenda02.png</thumbnail>
+			<summary>Agendas de eventos desportivos</summary>
+		</dir>
+ 
+		<dir>
+			<name>CANAIS DESPORTO</name>
+			<link>https://pastebin.com/raw/pnPwpu5F</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/tv02.png</thumbnail>
+			<summary>Outros canais desportivos</summary>
+		</dir>
+ 
+		<dir>
+			<name>RESUMOS & REPETIÇÕES</name>
+			<link>file://desporto/replays.xml</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/clock.png</thumbnail>
+			<summary>Resumos e repetições de eventos desportivos</summary>
+		</dir>
+	</desportosd> 
+</k7pirata>

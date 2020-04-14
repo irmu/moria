@@ -1,0 +1,28 @@
+<k7pirata>
+	<televisão>
+	<dir>
+		<title>Cardápio de Sugestões</title>
+		<link>file://tv/tv.xml</link>
+		<summary>Sugestões de séries da Gerência do Clube de Vídeo</summary>
+	</dir>
+	
+	<dir>
+		<title>Os mais populares</title>
+		<trakt>https://api.trakt.tv/shows/popular</trakt>
+		<summary>As séries mais populares do momento</summary>
+	</dir>
+	
+	<dir>
+		<title>Trending Shows</title>
+		<trakt>https://api.trakt.tv/shows/trending</trakt>
+		<summary>As tendências dos outros</summary>
+	</dir>
+	
+	<dir>
+		<title>Os mais cotados</title>
+		<tmdb>tv/top_rated</tmdb>
+		<thumbnail></thumbnail>
+		<summary>Ratings são para levar a sério</summary>
+	</dir>
+	</televisão>
+</k7pirata>

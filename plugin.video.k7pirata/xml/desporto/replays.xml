@@ -1,0 +1,92 @@
+<k7pirata>
+	<sportsreplays>
+		    dir>
+    <title>Sports Replays</title>
+    <Airtable>sports_replays</Airtable>
+    </dir>
+
+		<plugin>
+			<title>[COLOR lightgreen]PRIMEIRA LIGA[/COLOR]</title>
+			<link>plugin://plugin.video.youtube/channel/UCuIlu5oGIj1RzHOYmeSV5Eg/playlists/</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/clock.png</thumbnail>
+			<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/stadium.jpg</fanart>
+			<summary>Repetições e Resumos de jogos da Primeira Liga</summary>
+		</plugin>
+
+		<plugin>
+			<title>[COLOR lightgreen]LA LIGA[/COLOR]</title>
+			<link>plugin://plugin.video.youtube/channel/UCTv-XvfzLX3i4IGWAm4sbmA/playlists/</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/clock.png</thumbnail>
+			<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/stadium.jpg</fanart>
+			<summary>Repetições e Resumos de jogos da Liga Espanhola</summary>
+		</plugin>
+
+		<plugin>
+			<title>[COLOR lightgreen]Serie A[/COLOR]</title>
+			<link>plugin://plugin.video.youtube/channel/UCBJeMCIeLQos7wacox4hmLQ/playlists/</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/clock.png</thumbnail>
+			<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/stadium.jpg</fanart>
+			<summary>Repetições e Resumos de jogos da Série A Italiana</summary>
+		</plugin>
+
+		<plugin>
+			<title>[COLOR lightgreen]LIGUE 1[/COLOR]</title>
+			<link>plugin://plugin.video.youtube/channel/UC58LMAlfwtGRNR6Xpd4DlSA/playlists/</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/clock.png</thumbnail>
+			<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/stadium.jpg</fanart>
+			<summary>Repetições e Resumos de jogos da Primeira Liga Francesa</summary>
+		</plugin>
+
+		<plugin>
+			<title>[COLOR lightgreen]BUNDESLIGA[/COLOR]</title>
+			<link>plugin://plugin.video.youtube/channel/UC6UL29enLNe4mqwTfAyeNuw/playlists/</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/clock.png</thumbnail>
+			<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/stadium.jpg</fanart>
+			<summary>Repetições e Resumos de jogos da Liga Alemã</summary>
+		</plugin>
+
+		<plugin>
+			<title>[COLOR lightgreen]UEFA TV[/COLOR]</title>
+			<link>plugin://plugin.video.youtube/channel/UCyGa1YEx9ST66rYrJTGIKOw/playlists/</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/clock.png</thumbnail>
+			<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/stadium.jpg</fanart>
+		</plugin>
+
+		<plugin>
+			<title>[COLOR lightgreen]MLS[/COLOR]</title>
+			<link>plugin://plugin.video.youtube/channel/UCSZbXT5TLLW_i-5W8FZpFsg/playlists/</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/clock.png</thumbnail>
+			<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/stadium.jpg</fanart>
+		</plugin>
+
+		<plugin>
+			<title>[COLOR lightgreen]FORMULA 1[/COLOR]</title>
+			<link>plugin://plugin.video.youtube/channel/UCB_qr75-ydFVKSF9Dmo6izg/playlists/</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/clock.png</thumbnail>
+			<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/stadium.jpg</fanart>
+			<summary>Repetições e Resumos de eventos F1</summary>
+		</plugin>
+
+		<plugin>
+			<title>[COLOR lightgreen]WRC[/COLOR]</title>
+			<link>plugin://plugin.video.youtube/channel/UC5G6kTnHXDz0WIBC2VGBOqg/playlists/</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/clock.png</thumbnail>
+			<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/stadium.jpg</fanart>
+			<summary>Repetições e Resumos de de eventos WRC</summary>
+		</plugin>
+
+		<plugin>
+			<title>[COLOR lightgreen]EUROSPORT[/COLOR]</title>
+			<link>plugin://plugin.video.youtube/channel/UClhp9g6TPiqCTOlcw0ROfNg/</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/clock.png</thumbnail>
+			<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/stadium.jpg</fanart>
+		</plugin>
+
+		<plugin>
+			<title>[COLOR lightgreen]inCycle[/COLOR]</title>
+			<link>plugin://plugin.video.youtube/channel/UCXgba6tOLghtJuXaD8LBHWg/</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/clock.png</thumbnail>
+			<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/stadium.jpg</fanart>
+		</plugin>
+	</sportsreplays> 
+</k7pirata>

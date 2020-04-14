@@ -1,0 +1,29 @@
+<k7pirata>
+	<cardapiotv>
+		<dir>
+			<title>Chernobyl (2019)</title>
+			<meta>
+			<content>tvshow</content>
+			<tvdb>series/chernobyl</tvdb>
+			<tvshowtitle>Chernobyl (2019)</tvshowtitle>
+			<year>2019</year>
+			</meta>
+			<link>file://tv/chernobyl.xml</link>
+			<thumbnail>https://image.tmdb.org/t/p/w1280/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg</thumbnail>
+			<fanart>https://image.tmdb.org/t/p/original/5DJonZy0OMxKYUUAVZJddkDL6WM.jpg</fanart>
+		</dir>
+
+		<dir>
+			<title>Too Old to Die Young (2019)</title>
+			<meta>
+			<content>tvshow</content>
+			<tvdb>series/too-old-to-die-young</tvdb>
+			<tvshowtitle>Too Old to Die Young (2019)</tvshowtitle>
+			<year>2019</year>
+			</meta>
+			<link>file://tv/totdy.xml</link>
+			<thumbnail>https://image.tmdb.org/t/p/original/36pcI2kSblcKxTCz68xX25g0HUh.jpg</thumbnail>
+			<fanart>https://image.tmdb.org/t/p/original/n7dkSG7IbMfqoRoDf4HpC28R9nM.jpg</fanart>
+		</dir>
+	</cardapiotv>
+</k7pirata>

@@ -1,0 +1,75 @@
+<k7pirata>
+    <mysettings>
+        <plugin>
+            <title>K7 PIRATA: Customization</title>
+            <meta>
+                <summary>Open the Settings for the addon on the Customization tab</summary>
+            </meta>
+            <mysettings>0/0</mysettings>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/cog.png</thumbnail>
+        </plugin>
+
+        <plugin>
+            <title>K7 PIRATA: Cache</title>
+            <meta>
+                <summary>Open the Settings for the addon on the General tab</summary>
+            </meta>
+            <mysettings>1/0</mysettings>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/cog.png</thumbnail>
+        </plugin>
+
+        <plugin>
+            <title>K7 PIRATA: Scraper Setup</title>
+            <meta>
+                <summary>Open the Settings for the addon on the General tab</summary>
+            </meta>
+            <mysettings>2/0</mysettings>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/cog.png</thumbnail>
+        </plugin>
+
+        <plugin>
+            <title>K7 PIRATA: Resolver Setup</title>
+            <meta>
+                <summary>Open the Settings for the addon on the Resolvers tab</summary>
+            </meta>
+            <mysettings>3/0</mysettings>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/cog.png</thumbnail>
+        </plugin>
+        
+        <plugin>
+            <title>K7 PIRATA: API Settings</title>
+            <meta>
+                <summary>Open the API Settings if you wish to add your own API Keys to K7 PIRATA</summary>
+            </meta>
+            <mysettings>4/0</mysettings>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/cog.png</thumbnail>
+        </plugin>
+
+        <plugin>
+            <title>REAL-DEBRID: Re-Authorize (ResolveURL)</title>
+            <meta>
+                <summary>(Re)Authorize Real-Debrid in the Resolve URL Addon</summary>
+            </meta>
+            <link>plugin://script.module.resolveurl/?mode=auth_rd</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/cog.png</thumbnail>
+        </plugin>
+
+        <item>
+            <title>PAIRING: Pair My Connection</title>
+            <meta>
+                <summary>Pair with a selection of sites that require pairing for non-premium access</summary>
+            </meta>
+            <pairwith>pairlist</pairwith>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/cog.png</thumbnail>
+        </item>
+
+        <item>
+            <title>YOUTUBE: Live and CAMS Fix</title>
+            <meta>
+                <summary>Apply fix for YouTube Live playback issues and if you have problems with CAMS</summary>
+            </meta>
+            <ytdash></ytdash>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/cog.png</thumbnail>
+        </item>
+    </mysettings>
+</k7pirata>

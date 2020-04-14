@@ -1,0 +1,31 @@
+<k7pirata>
+	<sportsagendas>
+		<plugin>
+			<title>[COLOR lightgreen]LIVETV.ru[/COLOR]</title>
+			<link>plugin://plugin.video.SportsDevil/?item=url=livesports/LiveTV.ru.cfg&amp;mode=1</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/agenda02.png</thumbnail>
+			<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/stadium.jpg</fanart>
+		</plugin>
+		
+		<plugin>
+			<title>FIRST ROW</title>
+			<link>plugin://plugin.video.SportsDevil/?item=url=livesports/firstrowsports.eu.cfg&amp;mode=1</link>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/agenda02.png</thumbnail>
+			<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/stadium.jpg</fanart>
+		</plugin>
+		
+		<dir>
+			<title>SPORTS STREAM</title>
+			<sport_stream>games</sport_stream>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/agenda02.png</thumbnail>
+			<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/stadium.jpg</fanart>
+		</dir>
+		
+		<dir>
+			<title>HESGOAL</title>
+			<hesgoal>games</hesgoal>
+			<thumbnail>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/agenda02.png</thumbnail>
+			<fanart>https://raw.githubusercontent.com/irmu/moria/master/_tools/art/gimli/stadium.jpg</fanart>
+		</dir>
+	</sportsagendas> 
+</k7pirata>
