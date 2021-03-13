@@ -1,1 +1,0 @@
-[{"url": "https://yamcode.com/raw/s96PPK7C2y", "fanart": ".\\fanart.jpg", "title": "k7pirata"}]

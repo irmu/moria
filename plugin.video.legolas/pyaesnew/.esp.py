@@ -1,1 +1,0 @@
-[{"url": "https://pastebin.com/raw/n95TmYVW", "fanart": ".\\fanart.jpg", "title": "legolas"}]

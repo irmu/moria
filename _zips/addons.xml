@@ -1,83 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.gimli" name="GIMLI" version="2019.07.27" provider-name="Lórien">
-    <requires>
-        <import addon="xbmc.python" version="2.19.0" />
-        <import addon="script.module.universalscrapers" version="1.0.0" />
-        <import addon="script.module.python.koding.aio" version="0.9.6.6" />
-        <import addon="script.module.beautifulsoup" version="3.2.1" />
-        <import addon="script.module.requests" version="2.9.1" />
-        <import addon="script.module.addon.common" version="2.0.0" />
-        <import addon="script.module.xmltodict" version="0.9.0" />
-        <import addon="script.module.dateutil" />
-        <import addon="script.module.resolveurl" />
-		<import addon="plugin.video.reddit_viewer" />
-		<import addon="plugin.video.live.streamspro" />
-		<import addon="plugin.video.youtube" version="3.0.0"/>
-		<!--<import addon="script.module.web-pdb" version="1.0"/>-->
-        <!--<import addon="script.module.urlresolver" />-->
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="[login|startup]" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Gimli, Son of Gloin</summary>
-        <description lang="en">Certainty of death! Low chance of success! What are we waiting for!?!?</description>
-        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-        <platform>all</platform>
-        <website/>
-        <reuselanguageinvoker>false</reuselanguageinvoker>
-    </extension>
-</addon>
-
-<addon id="plugin.video.k7pirata" name="K7 Pirata" version="2020.01.01" provider-name="PRYOR ZAROLHO">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.beautifulsoup" version="3.2.1"/>
-	<import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-	<import addon="plugin.video.youtube" optional="true" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-	<import addon="script.module.simplejson" />
-    <import addon="script.module.livestreamer" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">K7 Pirata</summary>
-    <description lang="en">VHS é melhor que Betamax</description>
-    <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon.[CR]The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation.[CR]This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works.</disclaimer>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.legolas" name="Legolas" version="2020.01.15" provider-name="Lórien">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.beautifulsoup" version="3.2.1"/>
-	<import addon="script.module.simple.downloader" version="0.9.4"/>
-    <import addon="script.module.beautifulsoup4" />
-    <import addon="script.module.requests" />
-    <import addon="script.module.httplib2" />
-    <import addon="script.module.liveresolver" version="0.1.24" optional="true"/>
-	<import addon="script.module.simplejson" />
-    <import addon="script.module.livestreamer" optional="true"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Legolas</summary>
-    <description>I go to find the Sun!</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-    <addon id="repository.moria" name="Moria Repository" version="2019.03.02" provider-name="Irmu">
+    <addon id="repository.moria" name="Moria Repository" version="2018.10.05" provider-name="Irmu">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
         <extension point="xbmc.addon.repository" name="Moria Repository">
             <info compressed="false">https://raw.githubusercontent.com/irmu/moria/master/_zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/irmu/moria/master/_zips/addons.xml.md5</checksum>
@@ -86,45 +12,9 @@
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary>Moria Repository</summary>
-            <description>The Doors of Durin, Lord of Moria. Speak, friend, and enter.</description>
+            <description>The Doors of Durin, Lord of Moria. Speak, friend, and enter. I, Narvi, made them. Celebrimbor of Hollin drew these signs.</description>
             <platform>all</platform>
+            <genre>movies,usa</genre>
         </extension>
     </addon>
-
-<addon id="script.gandalf" name="GANDALF" version="2018.12.31" provider-name="Lórien">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.requests" version="1.0.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-     <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup" />
-  <extension point="xbmc.addon.metadata">
-	<summary>GANDALF - A simple fork of EZ Maintenance+</summary>
-	<description>Well, here at last, dear friends, on the shores of the sea comes the end of our fellowship in middle-earth. Go in peace! I will not say: do not weep for not all tears are an evil.</description>
-    <language></language>
-    <platform>all</platform>
-    <license>The MIT License</license>
-    <forum>-</forum>
-    <source>https://github.com</source>
-  </extension>
-</addon>
-
-<addon id="service.radagast"
-    name="Radagast" version="2018.10.21" provider-name="Lórien">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.service" library="default.py" start="login" />
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>all</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Automatic Search for Subtitles upon Playback.</summary>
-    <description lang="en">Automatic Search for Subtitles upon Playback. Credits to all previous/original developers. This is just a rebranding for personal use.</description>
-    <platform>all</platform>
-    <language>pt</language>
-  </extension>
-</addon>
 </addons>
