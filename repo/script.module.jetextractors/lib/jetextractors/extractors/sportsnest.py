@@ -1,0 +1,37 @@
+
+import requests, re, datetime
+from bs4 import BeautifulSoup
+
+from ..models.Extractor import Extractor
+from ..models.Game import Game
+from ..models.Link import Link
+from ..util import jsunpack, find_iframes
+
+class SportsNest(Extractor):
+    def __init__(self) -> None:
+        self.domains = ["sportsnest.co"]
+        self.name = "SportsNest"
+
+    def get_games(self):
+        return self.get_games_page(1)
+    
+    def get_games_page(self, page):
+        page = int(page)
+        games = []
+        r = requests.get(f"https://{self.domains[0]}/page/{page}/?s=soccer").text
+        soup = BeautifulSoup(r, "html.parser")
+
+        for game in soup.find_all("a",class_="link"):#, class_="et4"): # Loop through each <a> element
+            name = game.text
+            if not name:
+                continue
+            href = game.get("href")
+            games.append(Game(name,links=[Link(href)]))
+        games.append(Game(f"Page {page + 1}", page=page + 1))
+        return games
+
+    def get_link(self, url):
+        iframes = [Link(u) if not isinstance(u, Link) else u for u in find_iframes.find_iframes(url, "", [], [])]
+        return iframes[0]
+
+
