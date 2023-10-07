@@ -556,6 +556,36 @@
     <screenshot>resources/screenshot-02.jpg</screenshot>
   </assets>
 </extension>
+</addon><addon id="plugin.video.tugak" name="Tuga Kids" version="1.3" provider-name="Discave">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+	<import addon="script.module.t0mm0.common" version="2.0.0" />
+    <import addon="script.module.beautifulsoup" version="3.2.1" />
+    <import addon="script.module.simple.downloader" version="0.9.4" />
+    <import addon="script.module.beautifulsoup4" />
+    <import addon="script.module.simple.downloader" version="0.9.4" />
+    <import addon="script.module.requests" />
+    <import addon="script.module.httplib2" />
+    <import addon="script.module.youtube.dl" optional="true" />
+    <import addon="plugin.video.youtube" version="3.0.0" />
+    <import addon="script.module.urlresolver" optional="true" />
+    <import addon="script.module.simplejson" /> 
+    <import addon="script.common.plugin.cache" version="2.5.2" />
+    <import addon="script.module.metahandler" version="2.5.1" />    
+    <import addon="script.module.livestreamer" optional="true" />
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Video em audio Pt</summary>
+   <description lang="en">Alguns dos melhores filmes de animação com o audio em Pt-pt
+	Necessita do URLResolver, HTTPLib2, Simplejson
+	Qualquer contacto https://www.facebook.com/groups/discavehbrepo/</description>
+	<disclaimer lang="en">Todos os conteúdos não são hospedados pelos intervinientes, são link's encontrados na net em qualquer motor de busca</disclaimer>
+    <platform>all</platform>
+  </extension>
 </addon><addon id="plugin.video.youtube" name="YouTube" version="7.0.2~alpha7" provider-name="anxdpanic, bromix">
     <requires>
         <import addon="xbmc.python" version="3.0.1" />
@@ -1071,6 +1101,25 @@
       <screenshot>resources/screenshot002.jpg</screenshot>
     </assets>
   </extension>
+</addon><addon id="script.module.cloudscraper" name="CloudScraper2" version="1.2.60" provider-name="venomous">
+  <requires>
+    
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.python.pluginsource" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_gb">cloudscraper</summary>
+    <description lang="en_gb">cloudscraper</description>
+    <disclaimer lang="en_gb" />
+    <language />
+    <platform>all</platform>
+    <license />
+    <forum />
+    <website />
+    <email />
+    <source />
+  </extension>
 </addon><addon id="script.module.horus" name="Horus" version="1.1.9" provider-name="Caperucitaferoz">
     <requires>
         <import addon="script.module.six" />
@@ -1194,26 +1243,36 @@ v0.5.9 (2022-03-22)
       <icon>icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="script.module.metahandler" name="metahandler" version="3.0.3" provider-name="Eldorado, jsergio">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.simplejson" version="3.3.0" />
-    <import addon="script.module.addon.common" version="2.0.0" />
-    <import addon="script.module.myconnpy" version="1.1.6" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
-    <description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
-    <disclaimer lang="en" />
-    <language />
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum />
-    <website />
-    <email />
-    <source />
-  </extension>
+</addon><addon id="script.module.metahandler" name="metahandler" version="5.0.1" provider-name="Eldorado">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.six" version="1.14.0+matrix.2" />
+		<import addon="script.module.simplejson" version="3.17.0+matrix.2" />
+		<import addon="script.module.myconnpy" version="8.0.18+matrix.1" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Downloads Artwork for TV shows, Movies and Music videos for addons and stores them in a local SQLITE database</summary>
+		<description lang="en">Queries, stores, and returns metadata for TV shows, Movies and Musicvideos. [CR]Sources:[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]www.imdb.com[CR]www.omdbapi.com[CR]This product uses the TMDb API but is not endorsed or certified by TMDb.</description>
+		<disclaimer lang="en" />
+		<language />
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum />
+		<website />
+		<email />
+		<source />
+		<assets>
+			<icon>icon.png</icon>
+			<fanart />
+			<screenshot />
+		</assets>
+		<news>
+[B]Version 5.0.1[/B]
+- Fixed settings.xml version preventing setting UI from showing in Kodiunder Matrix
+		</news>
+	</extension>
 </addon><addon id="script.module.microjenscrapers" name="MicroJen Scraper Module" version="1.0.2" provider-name="MicroJen Community">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
@@ -1240,6 +1299,39 @@ v0.5.9 (2022-03-22)
     </assets>
     <news />
     </extension>
+</addon><addon id="script.module.pyairtable" name="pyairtable" version="1.4.0">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python Client for the Airtable API</summary>
+    <description lang="en_GB">Python Client for the Airtable API</description>
+    <license>MIT</license>
+    <platform>all</platform>
+    <website>https://pyairtable.readthedocs.io/</website>
+    <source>https://github.com/gtalarico/pyairtable</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon><addon id="script.module.pyjsparser" name="pyjsparser" version="3.0.0" provider-name="Addons4Kodi">
+  <requires>
+    
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Pure Python JavaScript Translator/Interpreter</summary>
+    <description>Packed for Kodi from https://github.com/PiotrDabkowski/pyjsparser</description>
+    <platform>all</platform>
+    <language />
+    <license>MIT</license>
+    <forum />
+    <website>https://github.com/PiotrDabkowski/pyjsparser</website>
+    <source>https://github.com/PiotrDabkowski/pyjsparser</source>
+    <email />
+  </extension>
 </addon><addon id="script.module.resolveurl" name="ResolveURL" version="5.1.111" provider-name="gujal">
     <requires>
         
@@ -1282,6 +1374,22 @@ v0.5.9 (2022-03-22)
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
+</addon><addon id="script.module.tabulate" name="Tabulate" version="0.9.1.1">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Pretty-print tabular data</summary>
+    <description lang="en_GB">Pretty-print tabular data</description>
+    <license>MIT</license>
+    <platform>all</platform>
+    <website>https://github.com/astanin/python-tabulate</website>
+    <source>https://github.com/astanin/python-tabulate</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
 </addon><addon id="script.module.trakt" name="trakt.py" version="4.4.0+matrix.1" provider-name="Dean Gardiner, Razzeee">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
