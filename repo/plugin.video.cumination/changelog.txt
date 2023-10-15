@@ -1,4 +1,5 @@
-[B]Version 1.1.89[/B]
-XFreeHD - Fix playback
-Perverzija - Fix video playback
-Update random user-agent code
+[B]Version 1.1.91[/B]
+Fuxmovies - Fix video listing & playback
+MissAV - Fix video listing
+JAV789 - Fix Video playback
+Pornhoarder - Fix Studios listing
