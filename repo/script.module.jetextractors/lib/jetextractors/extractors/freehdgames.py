@@ -11,7 +11,7 @@ from ..util import jsunpack, find_iframes
 
 class Freehdgames(Extractor):
     def __init__(self) -> None:
-        self.domains = ["freehdgames.xyz"]
+        self.domains = ["gameshdlive.net"]
         self.name = "Freehdgames"
         self.short_name = "HG"
 

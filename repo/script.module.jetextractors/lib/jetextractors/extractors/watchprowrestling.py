@@ -1,14 +1,14 @@
-import xbmc
-import xbmcgui
 import sys
-import requests
 import json
 import re
-from urllib.parse import urlparse, parse_qsl, unquote_plus
+from urllib.parse import urlparse, parse_qsl, quote_plus, unquote_plus
 from html import unescape
-from bs4 import BeautifulSoup as bs
 from base64 import b64decode
 from typing import List
+import xbmc
+import xbmcgui
+import requests
+from bs4 import BeautifulSoup as bs
 from ..models.Extractor import Extractor
 from ..models.Game import Game
 from ..models.Link import Link
@@ -16,11 +16,9 @@ from ..util import jsunpack
 
 
 BASE_URL = 'https://watchprowrestling.co'
-#BASE_URL = 'https://watchprowrestling.co/https:/watchprowrestling.co'
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36'
 HEADERS = {"User-Agent": USER_AGENT, 'Accept': '*/*', 'Referer': BASE_URL}
-SEARCH_URL = f'{BASE_URL}/page/1/?s='
-temp = 'https://watchprowrestling.co/?s=Wwe'
+SEARCH_URL = f'{BASE_URL}/?s='
 DEBRID = ['1fichier.com', 'uptobox.com', 'drop.download']
 FILTERS = ['download.tfast.store', 'player.wfast.store', 'guccihide.com', 'streamplay.to', 'www.m2list.com', 'vptip.com', 'https://issuessolution.site', 'www.sawlive.net', 'player.restream.io', 'download.cfast.store']
 PROGRESS = xbmcgui.DialogProgress()
@@ -32,29 +30,22 @@ class WatchProWrestling(Extractor):
     name = "WatchProWrestling"
 
     def get_games(self) -> List[Game]:
-        url = BASE_URL + '/page/1'
         response = requests.get(BASE_URL, headers=HEADERS)
         soup = bs(response.text, 'html.parser')
         vids = soup.find_all(class_='post-card')
         if not vids:
             OK('No Items Found', 'No items were found.')
-            quit()
+            sys.exit()
         games = [Game('Search', page='SEARCH')]
         for vid in vids:
             title = vid.a.img['alt'].replace('Watch ', '')
             link = vid.a['href']
             thumbnail = vid.a.img['src']
             games.append(Game(title=title, links=[Link(link, is_links=True)], icon=thumbnail))
-        splitted = url.split('/')
-        if '?s=' in url:
-            page_num = splitted[-2]
-            page_url = f"{'/'.join(splitted[:-2])}/{int(page_num) + 1}/{splitted[-1]}"
-            next_page = page_url.split(BASE_URL)[1]
-        else:
-            page_num = splitted[-1]
-            page_url = '/'.join(splitted[:-1])
-            next_page = f'{page_url.split(BASE_URL)[1]}/{int(page_num) + 1}'
-        games.append(Game(f"[COLORyellow]Page {int(page_num)+1}[/COLOR]", page=next_page))
+        pagination = soup.find(class_='next page-numbers')
+        if pagination:
+            next_page = pagination['href']
+            games.append(Game("[COLORyellow]Next Page[/COLOR]", page=next_page))
         return games
     
     def get_games_page(self, page) -> List[Game]:
@@ -64,17 +55,12 @@ class WatchProWrestling(Extractor):
             query = from_keyboard()
             if not query:
                 quit()
-            url = SEARCH_URL + query.replace(' ', '+')
+            url = SEARCH_URL + quote_plus(query)
         else:
-            if not 'page' in page:
-                url = f"{BASE_URL}/page/{page}"
-            elif '?s=' in page:
-                    url = f"{BASE_URL}/{page}"
-            else:
-                url = f"{BASE_URL}/{page}"
+            url = page
         response = requests.get(url, headers=HEADERS)
         soup = bs(response.text, 'html.parser')
-        vids = soup.find_all('div', class_='nv-post-thumbnail-wrap')
+        vids = soup.find_all(class_='post-card')
         if not vids:
             OK('No Items Found', 'No items were found.')
             quit()
@@ -87,16 +73,10 @@ class WatchProWrestling(Extractor):
                 'thumbnail': thumbnail
             }
             games.append(Game(title=title, links=[Link(link, is_links=True)], icon=thumbnail))
-        splitted = url.split('/')
-        if '?s=' in url:
-            page_num = splitted[-2]
-            page_url = f"{'/'.join(splitted[:-2])}/{int(page_num) + 1}/{splitted[-1]}"
-            next_page = page_url.split(BASE_URL)[1]
-        else:
-            page_num = splitted[-1]
-            page_url = '/'.join(splitted[:-1])
-            next_page = f'{page_url.split(BASE_URL)[1]}/{int(page_num) + 1}'
-        games.append(Game(f"[COLORyellow]Page {int(page_num)+1}[/COLOR]", page=next_page))
+        pagination = soup.find(class_='next page-numbers')
+        if pagination:
+            next_page = pagination['href']
+            games.append(Game("[COLORyellow]Next Page[/COLOR]", page=next_page))
         return games
     
     def get_links(self, url: str) -> List[Link]:
@@ -157,22 +137,17 @@ class Search(WatchProWrestling):
     name = "WatchProWrestlingSearch"
 
     def get_games(self) -> List[Game]:
-        games = []
-        items = {}
-        response = requests.get(f'https://{self.domains[0]}', headers=HEADERS)
+        response = requests.get(BASE_URL, headers=HEADERS)
         soup = bs(response.text, 'html.parser')
-        vids = soup.find_all('div', class_='nv-post-thumbnail-wrap')
+        vids = soup.find_all(class_='post-card')
         if not vids:
             OK('No Items Found', 'No items were found.')
-            quit()
+            sys.exit()
+        games = []
         for vid in vids:
             title = vid.a.img['alt'].replace('Watch ', '')
             link = vid.a['href']
             thumbnail = vid.a.img['src']
-            items[title] = {
-                'link': link,
-                'thumbnail': thumbnail
-            }
             games.append(Game(title=title, links=[Link(link, is_links=True)], icon=thumbnail))
         return games
 
