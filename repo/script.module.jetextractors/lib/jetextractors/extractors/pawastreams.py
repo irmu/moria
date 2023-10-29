@@ -11,7 +11,7 @@ from ..util import jsunpack, find_iframes
 
 class Pawa(Extractor):
     def __init__(self) -> None:
-        self.domains = ["ww2.pawastreams.top"]#ww2.pawastreams.top
+        self.domains = ["pawastreams.info/","ww2.pawastreams.top"]#ww2.pawastreams.top
         self.name = "Pawa"
 
     def get_games(self):

@@ -15,7 +15,7 @@ class Rainostreams(Extractor):
     def get_link(self, url):
         if "epllive" in url:
             if "?sport" in url:
-                url = url.split("?sport")[0]
+                url = url.split("?sport")[2]
             url = url.replace("https", "http")
             if "/embed" not in url:
                 url = url.replace(self.domains[0], f"{self.domains[2]}/embed") + ".php"

@@ -31,7 +31,7 @@ class Freehdgames(Extractor):
             link_name = game.text
             game_time = game.previous.previous.previous.previous.text
             name = (game_time + " " + game.previous.text).strip()
-            if not name or "Watch Free Games" in name:
+            if not name or "GAMESHDLIVE.NET" in name:
                 continue
             href = game.get("href")
             games.append(Game(name, league=league, links=[Link(href, name=link_name)]))

@@ -47,7 +47,7 @@ def Main():
     site.add_dir('[COLOR hotpink]Look for Online Models[/COLOR]', rapi + '?limit=100&offset=0&keywords=', 'Search', site.img_search)
     site.add_dir('[COLOR hotpink]Featured[/COLOR]', rapi + '?limit=100&offset=0', 'List', '', '')
     site.add_dir('[COLOR yellow]Current Hour\'s Top Cams[/COLOR]', bu + 'api/ts/contest/leaderboard/', 'topCams', '', '')
-    # site.add_dir('[COLOR yellow]Online Favorites[/COLOR]', bu, 'onlineFav', '', '')
+    site.add_dir('[COLOR yellow]Online Favorites[/COLOR]', bu, 'onlineFav', '', '')
     # site.add_dir('[COLOR yellow]Followed Cams[/COLOR]', site.url + 'followed-cams/', 'List', '', '')
     if female:
         site.add_dir('[COLOR violet]Female[/COLOR]', rapi + '?genders=f&limit=100&offset=0', 'List', '', '')
@@ -117,8 +117,10 @@ def List(url, page=1):
     #     site.add_dir('[COLOR yellow]Offline Rooms[/COLOR]', site.url + 'followed-cams/offline/', 'List', '', '')
     #     if 'followed' in url:
     #         login()
-    # if addon.getSetting("chaturbate") == "true":
-    #     clean_database(False)
+    if addon.getSetting("chaturbate") == "true":
+        clean_database(False)
+    if not isinstance(page, int):
+        page = 1
 
     listhtml = utils._getHtml(url)
     listhtml = json.loads(listhtml)
@@ -191,12 +193,6 @@ def List(url, page=1):
     #     contextmenu = [('[COLOR violet]Follow [/COLOR]{}'.format(name), 'RunPlugin(' + contextfollow + ')')] if follow else [('[COLOR violet]Unfollow [/COLOR]{}'.format(name), 'RunPlugin(' + contextunfollow + ')')]
 
     #     site.add_download_link(name, videopage, 'Playvid', img, subject, contextm=contextmenu, noDownload=True)
-
-    # nextp = re.compile(r'<a\s*href="([^"]+)"\s*class="next', re.DOTALL | re.IGNORECASE).search(listhtml)
-    # if nextp:
-    #     page = page + 1 if page else 2
-    #     next = bu[:-1] + nextp.group(1)
-    #     site.add_dir('Next Page (' + str(page) + ')', next, 'List', site.img_next, page)
 
     utils.eod()
 
