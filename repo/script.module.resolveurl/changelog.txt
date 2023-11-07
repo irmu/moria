@@ -1,4 +1,4 @@
-Version 5.1.113 (Oct 22, 2023)
+Version 5.1.115 (Nov 7, 2023)
 - Code Base Changes:
     - None
 
@@ -6,20 +6,17 @@ Version 5.1.113 (Oct 22, 2023)
     - None
 
 - Resolvers Fixed/Updated:
-    - clicknupload
-    - filelions
-    - fileved
-    - streamwish
-    - uploadingsite
-    - vidtube
-    - voesx
+    - drkvid
+    - govad
+    - mixdrop
+    - turboviplay
+    - upbaam
+    - vidbom
+    - vidguard
+    - waaw
 
 - Resolvers Removed
-    - fembed
-    - k2s
-    - streamhide
-    - streamlare
-    - streamsb
+    - None
 
 - Languages Added/Updated
     - None

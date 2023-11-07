@@ -50,7 +50,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="inputstream.adaptive" version="20.3.12" name="InputStream Adaptive" provider-name="peak3d">
+</addon><addon id="inputstream.adaptive" version="20.3.14" name="InputStream Adaptive" provider-name="peak3d">
   <requires>
 <import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2" />
 <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
@@ -73,7 +73,7 @@
     <summary lang="da_DK">InputStream-klient til adaptive streams</summary>
     <summary lang="de_DE">InputStream-Client für adaptive Streams</summary>
     <summary lang="en_GB">InputStream client for adaptive streams</summary>
-    <summary lang="es_ES">Cliente InputStream para flujo de datos adaptativos</summary>
+    <summary lang="es_ES">Cliente InputStream para flujos de datos adaptativos</summary>
     <summary lang="es_MX">Cliente InputStream para transmisiones adaptativas</summary>
     <summary lang="fi_FI">InputStream-asiakas mukautuville mediavirroille</summary>
     <summary lang="fr_FR">Client InputStream pour les flux adaptatifs</summary>
@@ -92,7 +92,7 @@
     <description lang="da_DK">InputStream-klient til adaptive streams</description>
     <description lang="de_DE">InputStream-Client für adaptive Streams. Unterstützt werden Streamingprotokolle wie MPEG-DASH, HLS und Microsoft Smooth Streaming.[CR][CR] Das Addon unterstützt ebenfalls DRM-geschützte Streams, wie Google Widevine, Microsoft Playready und andere.[CR][CR]Für Dokumentation https://github.com/xbmc/inputstream.adaptive besuchen</description>
     <description lang="en_GB">InputStream client for adaptive streams. Common streaming protocols such as MPEG-DASH, HLS and Microsoft Smooth Streaming are supported.[CR][CR]The add-on also has support for DRM protected streams, such as Google Widevine, Microsoft PlayReady and others.[CR][CR]For documentation visit: https://github.com/xbmc/inputstream.adaptive</description>
-    <description lang="es_ES">Cliente InputStream para flujo de datos adaptativos</description>
+    <description lang="es_ES">Cliente InputStream para flujos de datos adaptativos. Es compatible con protocolos de transmisión habituales como MPEG-DASH, HLS y Microsoft Smooth Streaming.[CR][CR]El add-on también es compatible con transmisiones protegidas por DRM, como Google Widevine, Microsoft PlayReady y otros.[CR][CR]Para consultar la documentación, visite: https://github.com/xbmc/inputstream.adaptive</description>
     <description lang="es_MX">Cliente InputStream para transmisiones adaptativas</description>
     <description lang="fi_FI">InputStream-asiakas mukautuville mediavirroille, joka tukee yleisiä suoratoistoprotokollia, kuten MPEG-DASH, HLS ja Microsoft Smooth Streaming.[CR][CR]Tukee myös mm. Google Widevine ja Microsoft PlayReady -tekniikoilla DRM-suojattua suoratoistoa.[CR][CR]Ohjeita löydät osoitteesta https://github.com/xbmc/inputstream.adaptive.</description>
     <description lang="fr_FR">Client InputStream pour les flux adaptatifs. Les protocoles de streaming courants tels que MPEG-DASH, HLS et Microsoft Smooth Streaming sont pris en charge.[CR][CR]Le module complémentaire prend également en charge les flux protégés par DRM, tels que Google Widevine, Microsoft PlayReady et autres.[CR][CR] Pour la documentation, visitez : https://github.com/xbmc/inputstream.adaptive</description>
@@ -318,7 +318,7 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="plugin.video.cumination" name="Cumination" provider-name="Cumination" version="1.1.93">
+</addon><addon id="plugin.video.cumination" name="Cumination" provider-name="Cumination" version="1.1.94">
     <requires>
         <import addon="script.module.six" />
         <import addon="script.module.kodi-six" />
@@ -366,7 +366,7 @@
         <news>- Añadida opción de reproducción externa de playlists[CR]- Correcciones menores
         </news>
     </extension>
-</addon><addon id="plugin.video.fen" name="Fen" provider-name="Tikipeter" version="3.2.11">
+</addon><addon id="plugin.video.fen" name="Fen" provider-name="Tikipeter" version="3.2.13">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" version="2.19.1" />
@@ -489,7 +489,7 @@
     </assets>
   </extension>
   
-</addon><addon id="plugin.video.sporthdme" name="SportHD" version="0.1.35" provider-name="Bugatsinho">
+</addon><addon id="plugin.video.sporthdme" name="SportHD" version="0.1.36" provider-name="Bugatsinho">
   <requires>
     
     <import addon="script.module.dateutil" />
@@ -507,7 +507,7 @@
     <twitter>https://twitter.com/Bugatsinho</twitter>
     <news>
       - compatible with Kodi18.x - 19.x - 20.x version
-      - fix liveon resolver
+      - add new resolvers
     </news>
 
     <assets>
@@ -548,13 +548,13 @@
             <screenshot>resources/art/ss/3.png</screenshot>
         </assets>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="5.1.46~nexus" name="TheMovieDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" version="5.1.52~nexus" name="TheMovieDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
   <import addon="script.module.pil" version="1.1.7" />
   <import addon="script.module.addon.signals" version="0.0.6" />
-  <import addon="script.module.jurialmunkey" version="0.1.10" />
+  <import addon="script.module.jurialmunkey" version="0.1.13" />
   <import addon="script.module.infotagger" version="0.0.5" />
   <import addon="script.module.beautifulsoup4" version="4.9.3" />
 </requires>
@@ -1441,6 +1441,23 @@
         <forum>https://t.me/KodiManiac
         https://t.me/acestream_spanish</forum>
     </extension>
+</addon><addon id="script.module.infotagger" name="InfoTagger" provider-name="jurialmunkey" version="0.0.8">
+  <requires>
+    <import addon="xbmc.python" version="3.0.1" />
+  </requires>
+  <extension point="xbmc.python.module" library="resources/modules" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en_GB">Python wrapper for setInfo on Nexus InfoTags</summary>
+    <description lang="en_GB">Python wrapper for setInfo on Nexus InfoTags</description>
+    <license>GPL-3.0-or-later</license>
+    <website>https://github.com/jurialmunkey/script.module.infotagger</website>
+    <source>https://github.com/jurialmunkey/script.module.infotagger</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+
 </addon><addon id="script.module.inputstreamhelper" name="InputStream Helper" version="0.6.1+matrix.1" provider-name="emilsvennesson, dagwieers, mediaminister, horstle">
   <requires>
     
@@ -1520,7 +1537,7 @@ v0.5.9 (2022-03-22)
             <fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
-</addon><addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.1.11">
+</addon><addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.1.13">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
     <import addon="script.module.requests" version="2.9.1" />
@@ -1639,7 +1656,7 @@ v0.5.9 (2022-03-22)
     <source>https://github.com/PiotrDabkowski/pyjsparser</source>
     <email />
   </extension>
-</addon><addon id="script.module.resolveurl" name="ResolveURL" version="5.1.113" provider-name="gujal">
+</addon><addon id="script.module.resolveurl" name="ResolveURL" version="5.1.115" provider-name="gujal">
     <requires>
         
         <import addon="script.module.six" />
@@ -1697,6 +1714,23 @@ v0.5.9 (2022-03-22)
       <icon>resources/icon.png</icon>
     </assets>
   </extension>
+</addon><addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="2.0.9" provider-name="The Crew">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.beautifulsoup4" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">The Crew is a team of individuals that does what it can to provide others, you the best in entertainment.</summary>
+        <description lang="en">Many come, Many go. The true and dedicated are here.</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
 </addon><addon id="script.module.trakt" name="trakt.py" version="4.4.0+matrix.1" provider-name="Dean Gardiner, Razzeee">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
