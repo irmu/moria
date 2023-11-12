@@ -2,8 +2,6 @@ from tmdbhelper.lib.addon.plugin import format_name
 
 
 def is_authorized(func):
-    from jurialmunkey.window import get_property
-    from jurialmunkey.parser import boolean
 
     def wrapper(self, *args, **kwargs):
 
@@ -13,9 +11,6 @@ def is_authorized(func):
                 return func(self, *args, **kwargs)
             # Authorization already granted in this instance
             if self.authorization:
-                return func(self, *args, **kwargs)
-            # Authorization already granted in this boot cycle
-            if boolean(get_property('TraktIsAuth')) and self.authorize():
                 return func(self, *args, **kwargs)
             # Authorization required ask for login if no token
             if not self.attempted_login and self.authorize(login=True):
@@ -81,7 +76,7 @@ def use_activity_cache(activity_type=None, activity_key=None, cache_days=None):
             cache_name = format_name(cache_name, *args, **kwargs)
 
             # Check last activity from Trakt
-            last_activity = self._get_last_activity(activity_type, activity_key)
+            last_activity = self.get_last_activity(activity_type, activity_key)
 
             # Get our cached object
             response = None
