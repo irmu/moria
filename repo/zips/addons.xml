@@ -266,6 +266,34 @@
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
+</addon><addon id="plugin.video.crackle" name="Crackle" version="2023.10.11+matrix.1" provider-name="eracknaphobia">
+  <requires>
+      <import addon="xbmc.python" version="3.0.0" />
+      <import addon="script.module.requests" />
+      <import addon="script.module.inputstreamhelper" />
+      <import addon="script.module.kodi-six" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en_GB">Crackle delivers popular, award-winning TV, movies and originals. With no limit to how much you can watch across all your devices, you can binge all you want, wherever you want.</summary>
+    <description lang="en_GB">Crackle is a video streaming distributor of original web shows, Hollywood movies, and TV shows. Founded in the early 2000s as Grouper, and rebranded in 2007, Crackle is owned by Sony Pictures Entertainment.</description>
+      <news>
+        - Add Search Feature
+        - Switch Menu to localized strings
+      </news>
+    <language>en</language>
+    <platform>all</platform>
+    <license>GPL-2.0-or-later</license>
+    <forum />
+    <source>https://github.com/eracknaphobia/plugin.video.crackle</source>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon><addon id="plugin.video.cristalazul" name="[B][/B][COLOR aqua]CRISTAL AZUL 3.0.6[/COLOR]" version="3.0.6" provider-name="PICAPAU, LOURDES, SUPERTOPO, LUISMA, GEORGE">
     <requires>
         <import addon="script.module.simplecache" />
@@ -575,7 +603,7 @@
             <screenshot>resources/art/ss/3.png</screenshot>
         </assets>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="5.2.4~nexus" name="TheMovieDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" version="5.2.5~nexus" name="TheMovieDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
@@ -1564,7 +1592,7 @@ v0.5.9 (2022-03-22)
             <fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
-</addon><addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.1.14">
+</addon><addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.1.15">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
     <import addon="script.module.requests" version="2.9.1" />
@@ -1683,7 +1711,7 @@ v0.5.9 (2022-03-22)
     <source>https://github.com/PiotrDabkowski/pyjsparser</source>
     <email />
   </extension>
-</addon><addon id="script.module.resolveurl" name="ResolveURL" version="5.1.115" provider-name="gujal">
+</addon><addon id="script.module.resolveurl" name="ResolveURL" version="5.1.116" provider-name="gujal">
     <requires>
         
         <import addon="script.module.six" />
