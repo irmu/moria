@@ -43,8 +43,9 @@ class trailers:
             self.tmdb_lang = control.apiLanguage()['tmdb']
             if not self.tmdb_user: self.tmdb_user = keys.tmdb_key
             self.tmdb_baselink = '';
-            self.tmdb_url = '{}/{}/{}/videos?api_key={}&language=en-US'.format(self.tmdb_base,'{}', '{}', self.tmdb_user)
-            self.show_url = 'https://api.themoviedb.org/3/tv/%s/videos?api_key=%s&include_video_language=%s' % ('%s', self.tmdb_user, self.tmdb_lang)
+            self.tmdb_url = ('{}/{}/{}/videos?api_key={}&language=en-US').format(self.tmdb_base,'{}', '{}', self.tmdb_user)
+            self.show_url = ('{}/tv/{}/videos?api_key={}&include_video_language={}').format(self.tmdb_base, '%s', self.tmdb_user, self.tmdb_lang)
+
             self.base_link = 'https://www.youtube.com'
             self.base_link2 = 'https://youtube.com'
             self.base_link3 = 'https://youtu.be'

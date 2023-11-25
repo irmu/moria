@@ -160,7 +160,7 @@ msgid "[COLOR orchid]¤[/COLOR] [B][COLOR white]History[/COLOR][/B] [COLOR orchi
 msgstr ""
 
 msgctxt "#32037"
-msgid "[COLOR orchid]¤[/COLOR] [B][COLOR white]Next Episodes[/COLOR][/B] [COLOR orchid]¤[/COLOR]"
+msgid "[COLOR orchid]¤[/COLOR] [B][COLOR white]My Progress[/COLOR][/B] [COLOR orchid]¤[/COLOR]"
 msgstr ""
 
 msgctxt "#32038"
@@ -1854,7 +1854,7 @@ msgid "[COLOR orchid]¤[/COLOR] [B][COLOR white]Hallmark Christmas[/COLOR][/B] [
 msgstr ""
 
 msgctxt "#90160"
-msgid "[COLOR orchid]¤[/COLOR] [B][COLOR white]Random Christmas Movies[/COLOR][/B] [COLOR orchid]¤[/COLOR]"
+msgid "[COLOR orchid]¤[/COLOR] [B][COLOR white]Christmas Movies[/COLOR][/B] [COLOR orchid]¤[/COLOR]"
 msgstr ""
 
 msgctxt "#90161"

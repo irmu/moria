@@ -11,8 +11,8 @@
         <setting id="fanart.quality" type="enum" label="32092" enable="eq(-1,true)" lvalues="32093|32094|32095|32096" default="2" />
         <setting id="fanart.quality.action" type="action" label="32306" option="close" action="RunPlugin(plugin://plugin.video.thecrew/?action=setfanartquality)" visible="false" />
         <setting id="page.item.limit" type="slider" label="90191" default="25" range="10,60" option="int" />
-        <setting id="hidecinema" type="bool" label="32571" default="false" />
-        <setting id="hidecinema.rollback" type="slider" label="90192" enable="eq(-1,true)" default="6" range="1,12" option="int" />
+        <!-- <setting id="hidecinema" type="bool" label="32571" default="false" /> -->
+        <!-- <setting id="hidecinema.rollback" type="slider" label="90192" enable="eq(-1,true)" default="6" range="1,12" option="int" /> -->
         <setting type="lsep" label="90183" />
         <setting id="flatten.tvshows" type="bool" label="32317" default="false" />
         <setting id="showunaired" type="bool" label="32570" default="true" />
@@ -168,7 +168,6 @@
             <setting id="provider.magnetdl" type="bool" label="MAGNETDL" default="true" />
             <setting id="provider.piratebay" type="bool" label="PIRATEBAY" default="true" />
             <setting id="provider.tordl" type="bool" label="TORDL" default="true" />
-            <setting id="provider.torrentapi" type="bool" label="TORRENTAPI" default="true" />
             <setting id="provider.torrentdownloads" type="bool" label="TORRENTDOWNLOADS" default="true" />
             <setting id="provider.torrentgalaxy" type="bool" label="TORRENTGALAXY" default="true" />
             <setting id="provider.torrentquest" type="bool" label="TORRENTQUEST" default="true" />

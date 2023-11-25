@@ -14,8 +14,7 @@
 
 
 import sys
-
-from resources.lib.modules.crewruntime import c
+from .crewruntime import c
 
 def router(params):
 
@@ -59,10 +58,7 @@ def router(params):
         'ufc','fifa','wwe','motogp','f1','pga','nascar','cricket','sports_channels', 'sreplays', 'greenhat'
     }
 
-    #only reserved for The Crew 2
-    reservedlist = {
-        #'greenhat'
-    }
+
 
     if action == None:
         from resources.lib.indexers import navigator
@@ -397,7 +393,7 @@ def router(params):
 
     elif action == 'setfanartquality':
         from resources.lib.modules import control
-        c.log('[CM Debug @ 405 in crew.py] hiero')   
+        c.log('[CM Debug @ 397 in crew.py] hiero')
         control.setFanartQuality()
 
     elif action == 'refresh':
@@ -548,24 +544,25 @@ def router(params):
             r = sys.argv[0]+"?action=random&rtype=season"
         from resources.lib.modules import control
         from random import randint
+        from urllib.parse import quote_plus
         import json
         try:
             rand = randint(1, len(rlist))-1
             for p in ['title', 'year', 'imdb', 'tmdb', 'season', 'episode', 'tvshowtitle', 'premiered', 'select']:
                 if rtype == "show" and p == "tvshowtitle":
                     try:
-                        r += '&'+p+'='+urllib_parse.quote_plus(rlist[rand]['title'])
+                        r += '&'+p+'='+ urllib.parse.quote_plus(rlist[rand]['title'])
                     except:
                         pass
                 else:
                     try:
-                        r += '&'+p+'='+urllib_parse.quote_plus(rlist[rand][p])
+                        r += '&'+p+'='+ urllib.parse.quote_plus(rlist[rand][p])
                     except:
                         pass
             try:
-                r += '&meta='+urllib_parse.quote_plus(json.dumps(rlist[rand]))
+                r += '&meta='+ urllib.parse.quote_plus(json.dumps(rlist[rand]))
             except:
-                r += '&meta='+urllib_parse.quote_plus("{}")
+                r += '&meta='+ urllib.parse.quote_plus("{}")
             if rtype == "movie":
                 try:
                     control.infoDialog(rlist[rand]['title'], control.lang(32536), time=30000)
@@ -659,9 +656,9 @@ def router(params):
         from resources.lib.indexers import navigator
         navigator.navigator().halloween()
 
-    elif action == 'bugReports':
-        from resources.lib.reports import bugreports
-        bugreports.BugReporter()
+    #elif action == 'bugReports':
+        #from resources.lib.reports import bugreports
+        #bugreports.BugReporter()
 
     elif action == 'kidsgreyNavigator':
         from resources.lib.indexers import navigator

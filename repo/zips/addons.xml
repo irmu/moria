@@ -421,7 +421,7 @@
         <news>- Añadida opción de reproducción externa de playlists[CR]- Correcciones menores
         </news>
     </extension>
-</addon><addon id="plugin.video.fen" name="Fen" provider-name="Tikipeter" version="3.2.13">
+</addon><addon id="plugin.video.fen" name="Fen" provider-name="Tikipeter" version="3.2.14">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" version="2.19.1" />
@@ -570,7 +570,7 @@
       <fanart>fanart.jpg</fanart>
     </assets>
   </extension>
-</addon><addon id="plugin.video.thecrew" version="2.0.5" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
+</addon><addon id="plugin.video.thecrew" version="2.0.6" name="[COLOR orchid]THE CREW[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.thecrew" />
@@ -603,7 +603,7 @@
             <screenshot>resources/art/ss/3.png</screenshot>
         </assets>
     </extension>
-</addon><addon id="plugin.video.themoviedb.helper" version="5.2.5~nexus" name="TheMovieDb Helper" provider-name="jurialmunkey">
+</addon><addon id="plugin.video.themoviedb.helper" version="5.2.6~nexus" name="TheMovieDb Helper" provider-name="jurialmunkey">
 <requires>
   <import addon="xbmc.python" version="3.0.1" />
   <import addon="script.module.requests" version="2.9.1" />
@@ -664,7 +664,7 @@
 	<disclaimer lang="en">Todos os conteúdos não são hospedados pelos intervinientes, são link's encontrados na net em qualquer motor de busca</disclaimer>
     <platform>all</platform>
   </extension>
-</addon><addon id="plugin.video.umbrella" name="Umbrella" provider-name="Umbrella" version="6.6.34">
+</addon><addon id="plugin.video.umbrella" name="Umbrella" provider-name="Umbrella" version="6.6.39">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" />
@@ -838,15 +838,8 @@
 			<screenshot>resources/screenshots/screenshot003.jpg</screenshot>
 		</assets>
 		<news>
-[B]Update - v6.6.34 - October 31st, 2023[/B]
---[THANKS] Thanks to u/Omars-comin and u/Mammoth-Bullfrog-274 for testing.
---[FIX] Changes made for database name difference in Kodi 21.
---[ENHANCEMENT] Plex is now built in.
---[ENHANCEMENT] Easynews is now built in.
---[ENHANCEMENT] FilePursuit is now built in.
---[ENHANCEMENT] GDrive is now built in.
---[FIX] Change made to resolve scrobble failure.
-
+[B]Update - v6.6.39 - November 22nd, 2023[/B]
+--[Fix] Added IMDb Years back in for movies.
 		</news>
 	</extension>
 
@@ -1420,6 +1413,24 @@
       <screenshot>resources/screenshot002.jpg</screenshot>
     </assets>
   </extension>
+</addon><addon id="script.module.arrow" name="arrow" version="1.2.3" provider-name="Chris Smith">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.dateutil" version="2.8.2" />
+    <import addon="script.module.typing_extensions" version="4.7.1" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Better dates and times for Python</summary>
+    <description lang="en_GB">Better dates and times for Python</description>
+    <license>Apache-2.0</license>
+    <platform>all</platform>
+    <website>https://arrow.readthedocs.io/en/latest/</website>
+    <source>https://github.com/arrow-py/arrow</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
 </addon><addon id="script.module.cloudscraper" name="CloudScraper2" version="1.2.60" provider-name="venomous">
   <requires>
     
@@ -1592,7 +1603,7 @@ v0.5.9 (2022-03-22)
             <fanart>fanart.jpg</fanart>
 		</assets>
 	</extension>
-</addon><addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.1.15">
+</addon><addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.1.17">
   <requires>
     <import addon="xbmc.python" version="3.0.1" />
     <import addon="script.module.requests" version="2.9.1" />
@@ -1711,7 +1722,7 @@ v0.5.9 (2022-03-22)
     <source>https://github.com/PiotrDabkowski/pyjsparser</source>
     <email />
   </extension>
-</addon><addon id="script.module.resolveurl" name="ResolveURL" version="5.1.116" provider-name="gujal">
+</addon><addon id="script.module.resolveurl" name="ResolveURL" version="5.1.117" provider-name="gujal">
     <requires>
         
         <import addon="script.module.six" />
@@ -1769,7 +1780,7 @@ v0.5.9 (2022-03-22)
       <icon>resources/icon.png</icon>
     </assets>
   </extension>
-</addon><addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="2.0.9" provider-name="The Crew">
+</addon><addon id="script.module.thecrew" name="[COLOR orchid]THE CREW MODULE[/COLOR]" version="2.1.0" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.beautifulsoup4" />
@@ -1805,6 +1816,31 @@ v0.5.9 (2022-03-22)
       <icon>icon.png</icon>
     </assets>
   </extension>
+</addon><addon id="script.module.youtube.dl" name="youtube-dl Control" version="23.04.01+matrix.1" provider-name="ytdl-org,ruuk,sy6sy2,wwark">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.addon.signals" version="0.0.5+matrix.1" />
+        <import addon="script.module.kodi-six" version="0.1.3" />
+    </requires>
+    <extension point="xbmc.python.script" library="control.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">Module providing access to youtube-dl video stream extraction</summary>
+        <description lang="en_GB">Module providing access to youtube-dl video stream extraction for hundreds of sites. Version is based on youtube-dl date version: YY.MDD.V where V is the addon specific sub-version. Also provides downloading with the option for background downloading with a queue and queue manager.</description>
+        <summary lang="el_EL">Βοηθητική μονάδα πρόσβασης στους επιλυτές youtube-dl για την εξαγωγή ροών βίντεο</summary>
+        <description lang="el_EL">Βοηθητική μονάδα πρόσβασης στους επιλυτές youtube-dl για την εξαγωγή ροών βίντεο από εκατοντάδες ιστότοπους. Η έκδοση βασίζεται στην έκδοση ημερομηνίας του youtube-dl: EE.MHH.EK όπου ΕΚ η υπό-έκδοση συγκεκριμένα για το πρόσθετο. Επιπλέον δίνει δυνατότητα μεταφόρτωσης στο παρασκήνιο με ουρά και διαχειριστή αυτής.</description>
+        <summary lang="es_ES">Módulo que proporciona acceso a YouTube-dl para la extracción de flujos de video</summary>
+        <description lang="es_ES">Módulo que proporciona acceso a YouTube-dl para la extracción de flujos de video de cientos de sitios. La versión está basada en la versión de fecha youtube-dl: YY.MDD.V donde V es la subversión específica del complemento. También permite descargas con la opción de descarga en segundo plano con una cola y un administrador de colas.</description>
+        <license>LGPL-2.1-only</license>
+        <forum>https://forum.kodi.tv/showthread.php?tid=200877</forum>
+        <source>https://github.com/xbmc/repo-scripts/tree/matrix/script.module.youtube.dl</source>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
 </addon><addon id="script.thecrew.artwork" version="2.0.0" name="[COLOR orchid]THE CREW ARTWORK[/COLOR]" provider-name="The Crew">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />

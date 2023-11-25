@@ -69,11 +69,11 @@ def log(msg, trace=0):
 
         if not debug_log == '0':
             if not os.path.exists(LOG_FILE):
-                f = open(LOG_FILE, 'w')
+                f = open(LOG_FILE, 'w', encoding='utf-8')
+                f.write('\n\n\n\nstart\n')
                 f.close()
-            with open(LOG_FILE, 'a') as f:
-                line = ('[{} {}] {}: {}').format(datetime.now().date(),
-                                                 str(datetime.now().time())[:8], head, _msg)
+            with open(LOG_FILE, 'a', encoding='utf-8') as f:
+                line = ('[{} {}] {}: {}').format(datetime.now().date(), str(datetime.now().time())[:8], head, _msg)
                 f.write(line.rstrip('\r\n') + '\n\n')
     except (TypeError, Exception) as e:
         try:

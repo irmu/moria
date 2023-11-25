@@ -1857,8 +1857,8 @@ msgid "[COLOR orchid]¤[/COLOR] [B][COLOR white]Hallmark Christmas[/COLOR][/B] [
 msgstr "[COLOR orchid]¤[/COLOR] [B][COLOR white]Hallmark Kerstmis[/COLOR][/B] [COLOR orchid]¤[/COLOR]"
 
 msgctxt "#90160"
-msgid "[COLOR orchid]¤[/COLOR] [B][COLOR white]Random Christmas Movies[/COLOR][/B] [COLOR orchid]¤[/COLOR]"
-msgstr "[COLOR orchid]¤[/COLOR] [B][COLOR white]Willekeurige Kerstfilms[/COLOR][/B] [COLOR orchid]¤[/COLOR]"
+msgid "[COLOR orchid]¤[/COLOR] [B][COLOR white]Christmas Movies[/COLOR][/B] [COLOR orchid]¤[/COLOR]"
+msgstr "[COLOR orchid]¤[/COLOR] [B][COLOR white]Kerstfilms[/COLOR][/B] [COLOR orchid]¤[/COLOR]"
 
 msgctxt "#90161"
 msgid "[COLOR orchid]¤[/COLOR] [B][COLOR white]Top 50 Holiday Movies[/COLOR][/B] [COLOR orchid]¤[/COLOR]"

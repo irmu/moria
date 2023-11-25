@@ -1,3 +1,24 @@
+[COLOR orchid][B]version 2.0.6[/B][/COLOR]
+
+* [COLOR green]Added[/COLOR]: holiday/christmas movies menu item will be shown automagically in december
+
+* [COLOR orange]Fixed[/COLOR]: scraper (in module 2.0.9)
+* [COLOR orange]Fixed[/COLOR]: IMDB changes
+* [COLOR orange]Fixed[/COLOR]: Core code changes because of change from IMDB to TMDB
+* [COLOR orange]Fixed[/COLOR]: pagination with lists in TMDB
+* [COLOR orange]Fixed[/COLOR]: continue watching in movies AND tvshows
+* [COLOR orange]Fixed[/COLOR]: bug in caching
+
+* [COLOR cyan]Changed[/COLOR]: Movies: rearranged menuoptions, removed IMDB
+* [COLOR cyan]Changed[/COLOR]: several language strings (English/Dutch)
+* [COLOR cyan]Changed[/COLOR]: a lot of code, tmdb has a different way of doing things
+
+* [COLOR orchid]Extra[/COLOR]: Bumped version to 2.0.6/module to 2.1.0
+
+* [COLOR red]Removed[/COLOR]: A LOT of obsolete IMDB code and links
+* [COLOR red]Removed[/COLOR]: Hidecinema option in settings
+
+
 [COLOR orchid][B]version 2.0.5[/B][/COLOR]
 
 * [COLOR green]Added[/COLOR]: Silent boot option

@@ -2,15 +2,13 @@
 
 '''
  ***********************************************************
- * Genesis Add-on
- * Copyright (C) 2015 lambda
+ * The Crew Add-on
  *
- * - Mofidied by The Crew
  *
  * @file cache.py
  * @package script.module.thecrew
  *
- * @copyright 2023, The Crew
+ * @copyright (c) 2023, The Crew
  * @license GNU General Public License, version 3 (GPL-3.0)
  *
  ********************************************************cm*
@@ -25,14 +23,10 @@ import os
 
 import six
 
-try:
-    from sqlite3 import dbapi2 as db, OperationalError
-except ImportError:
-    from pysqlite2 import dbapi2 as db, OperationalError
-
+from sqlite3 import dbapi2 as db, OperationalError
 from resources.lib.modules import control
-from resources.lib.modules import log_utils
 from resources.lib.modules import utils
+from resources.lib.modules.crewruntime import c
 
 cache_table = 'cache'
 
@@ -48,7 +42,7 @@ def get(function_, duration, *args, **table):
         a = hashlib.md5()
         for i in args: 
             a.update(six.ensure_binary(i))
-        a = str(a.hexdigest())
+        a = six.ensure_str(a.hexdigest())
 
     except:
         pass
@@ -93,17 +87,21 @@ def get(function_, duration, *args, **table):
         t = int(time.time())
         dbcur.execute("CREATE TABLE IF NOT EXISTS {} (""func TEXT, ""args TEXT, ""response TEXT, ""added TEXT, ""UNIQUE(func, args)"")".format(table))
         dbcur.execute("DELETE FROM {} WHERE func = '{}' AND args = '{}'".format(table, f, a))
-        dbcur.execute("INSERT INTO {} Values (?, ?, ?, ?)".format(table), (f, a, r, t))
+        dbcur.execute("INSERT INTO %s (func, args, response, added) Values (?,?,?,?)" % table, (f, a, r, t))
         dbcon.commit()
 
+
     except Exception as e:
-        log_utils.log('cache.get error 1:  error =' + str(e))
+        #import traceback
+        #failure = traceback.format_exc()
+        #c.log('[CM Debug @ 100 in cache.py]Traceback:: ' + str(failure))
+        #c.log(f'[CM Debug @ 105 in cache.py]Exception raised. Error = {e}')
         pass
 
     try:
         return eval(r.encode('utf-8'))
     except Exception as e:
-        log_utils.log('cache.get error 2:  error =' + str(e))
+        c.log('cache.get error 2:  error =' + str(e))
         pass
 
 def timeout(function_, *args):
