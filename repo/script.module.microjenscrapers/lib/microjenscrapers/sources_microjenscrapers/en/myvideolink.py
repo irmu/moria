@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-    Nightwing module
+    MicroJen Scrapers module
 '''
 
 

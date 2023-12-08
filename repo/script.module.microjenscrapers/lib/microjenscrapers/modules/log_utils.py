@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-    dev name add-on
+    MicroJen Scrapers Add-on
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -36,7 +36,7 @@ LOGFATAL = xbmc.LOGFATAL
 LOGNONE = xbmc.LOGNONE
 
 name = control.addonInfo('name')
-DEBUGPREFIX = '[ Nightwing DEBUG ]'
+DEBUGPREFIX = '[ MicroJen Scrapers DEBUG ]'
 LOGPATH = control.transPath('special://logpath/')
 log_file = os.path.join(LOGPATH, 'pressplay.log')
 debug_enabled = control.addon('script.module.microjenscrapers').getSetting('addon.debug')
@@ -66,7 +66,7 @@ def log(msg, trace=0):
             #xbmc.log('%s: %s' % (DEBUGPREFIX, _msg), LOGDEBUG)
     except Exception as e:
         try:
-            xbmc.log('Nightwing Logging Failure: %s' % e, LOGDEBUG)
+            xbmc.log('MicroJen Scrapers Logging Failure: %s' % e, LOGDEBUG)
         except:
             pass
 

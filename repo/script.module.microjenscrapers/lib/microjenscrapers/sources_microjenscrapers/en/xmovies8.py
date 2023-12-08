@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 
-# Nightwing module
+# MicroJen Scrapers module
 
 
 import re, base64

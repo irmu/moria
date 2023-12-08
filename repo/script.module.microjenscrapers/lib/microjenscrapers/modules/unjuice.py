@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-    dev name Add-on
-    Copyright (C) 2017 dev name
+    MicroJen Scrapers Add-on
+    Copyright (C) 2017 All credit to original author
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
