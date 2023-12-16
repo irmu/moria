@@ -1,0 +1,61 @@
+﻿<settings>
+<category label="Proxy">
+	<setting label="[COLOR lightblue]Opções do Proxy:[/COLOR]" type="lsep"/>
+	<setting label="Ativar Proxy" id="proxy" type="bool"  default="false" />
+	<setting label="Número de Tentativas" id="proxy_try" type="enum" values="1 Vez|2 Vezes|3 Vezes|4 Vezes|5 Vezes|6 Vezes|6 Vezes|7 Vezes|8 Vezes|9 Vezes|10 Vezes" default="4" />
+	<setting label="[COLOR yellow][B]Utilize apenas se a operadora estiver bloqueando o servidor[/B][/COLOR]" type="bool"/>
+	<setting label="[COLOR yellow][B]by TheAnonymous.[/B][/COLOR]" type="bool"/>
+	<setting label="[COLOR yellow][B]Aviso: Pode demorar a carregar[/B][/COLOR]" type="bool"/>
+	<setting label="[COLOR yellow][B]Não se aplica a servidores de IPTV como o VIP esses tem[/B][/COLOR]" type="bool"/>
+	<setting label="[COLOR yellow][B]conexão direta.[/B][/COLOR]" type="bool"/>
+	<setting label="[COLOR yellow][B]Utilize VPN se a operadora bloqueia o IPTV.[/B][/COLOR]" type="bool"/>
+</category>
+<category label="Canais">
+    <setting id="parentalblocked" label="Is Parental Blocked Applied?" type="bool" default="false" visible="false"/>    
+	<setting label="[COLOR lightblue]Configurações dos Canais:[/COLOR]" type="lsep"/>
+	<setting label="Exibir Canais 4K (Lista M3U)" id="uhdtv" type="bool" default="true" />
+	<setting label="Exibir Canais FHD (Lista M3U)" id="fhdtv" type="bool" default="true" />
+	<setting label="Exibir Canais HD (Lista M3U)" id="hdtv" type="bool" default="true" />
+	<setting label="Exibir Canais SD (Lista M3U)" id="sdtv" type="bool" default="true" />
+</category>
+  <category label="Adicionar lista">
+	<setting type="lsep" label="Habiltar para ter acesso as suas lista inseridas!"/>	
+	<setting id="sourcefile" type="bool" label="Ativar as listas inseridas" default="false"/>  
+    <setting id="choose_source" type="enum" values="externo|interno" label="Escolha o tipo da fonte:" default="0" visible="!eq(-1,false)"/>
+    <setting id="new_url_source" type="text" label="Adicionar link" default="" visible="eq(-1,0)+!eq(-2,false)"/>
+    <setting id="new_file_source" type="file" source="files" label="Escolher arquivo" default="" visible="eq(-2,1)+!eq(-3,false)"/>
+    <setting type="action" label="Adicionar Nome" option="close" visible="!eq(-2,false)+!eq(-4,false)" action="RunPlugin(plugin://plugin.video.theanonymous.nexus/?mode=7)" />
+	<setting type="lsep" label="Apenas para apagar ficheiro quando estiver contéudo antigo já adicionado!"/>
+	<setting type="action" label="Clicar aqui para apagar ficheiro settings do addon!" option="close" visible="!eq(-2,false)+!eq(-6,false)" action="RunPlugin(plugin://plugin.video.theanonymous.nexus/?mode=2)"/>			
+    <setting type="lsep" label="[COLOR red]Apenas para apagar ficheiros quando o addon estiver a dar erro.[/COLOR]"/>	
+	<setting type="action" label="Clicar aqui para apagar ficheiro da sua lista extra!" option="close" action="RunPlugin(plugin://plugin.video.theanonymous.nexus/?mode=3)"/> 	
+  </category> 
+<category label="Controle dos Pais">
+    <setting label="[COLOR lightblue]Configurações para canais adultos:[/COLOR]" type="lsep"/>
+	<setting type="action" label="[COLOR red]Colocar Senha Aqui[/COLOR]: Desativar Bloqueio Parental" visible="!eq(-2,false)" action="RunPlugin(plugin://plugin.video.theanonymous.nexus/?mode=20)"/>
+	<setting type="action" label="Habilitar Bloqueio Parental" visible="!eq(-3,true)" action="RunPlugin(plugin://plugin.video.theanonymous.nexus/?mode=21)"/>
+	<setting label="Exibir Canais Adultos (Lista M3U)" id="adult2" type="bool" default="false" />
+	<setting label="[COLOR lightblue]Para visualizar novo Teclado iniciar novamente definições![/COLOR]" type="lsep"/>
+	<setting label="Mudança do Teclado" id="keyboard" type="enum" values="Númerico|Alfanúmerico" default="1" />
+	<setting label="Entre aqui para alterar senha" type="action" action="RunScript(plugin.video.theanonymous.nexus, SetPassword)"/>
+	<setting label="[COLOR yellow][B]Senha padrão[/B][/COLOR] é fornecida a pedido no grupo oficial." type="bool"/>		
+    <setting label="[COLOR lightblue]Configurações de limpeza do ficheiro:[/COLOR]" type="lsep"/>		
+	<setting label="Limpeza Total do ficheiro [B][COLOR green]Favoritos[/COLOR][/B]" type="action" action="RunScript(plugin.video.theanonymous.nexus, limparFavoritos)"/>
+</category>
+<category label="Complementos">
+    <setting label="[COLOR lightblue]Configurações de Complemento:[/COLOR]" type="lsep"/>
+	<setting label="Exibir Mensagem de Boas Vindas" id="mensagem" type="bool" default="true" />
+	<setting label="Verificar Complementos" id="check_addon" type="bool" default="false" />
+	<setting label="Baixar e Instalar Elementum" id="elementum" type="bool" default="false" />
+	<setting label="Baixar e Instalar Youtube" id="youtube" type="bool" default="false" />
+</category>
+<category label="Outros">
+	<setting label="[COLOR lightblue]Configurações Gerais:[/COLOR]" type="lsep"/>
+	<setting label="Mostrar atalho de informação" id="information" type="bool" default="true" />
+	<setting id="debug" type="bool" label="Enable Add-on Debugging" default="false"/>
+	<setting label="Executar Youtube" id="ytbmode" type="enum" values="Interno 1|Interno 2|Externo" default="1" />	
+    <setting label="Use Miniaturas como Fanart" id="use_thumb" type="bool" default="false" />
+	<setting label="Mostrar atalho dos favoritos" id="myfavoritos" type="bool" default="true" />
+	<setting label="Limpeza dos favoritos" type="action" action="RunScript(plugin.video.theanonymous.nexus, limparFavoritos)" />
+</category>
+</settings>
