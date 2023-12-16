@@ -64,7 +64,7 @@ class Rainostreams(Extractor):
             try:
                 r = requests.get(f"https://streamsapi.xyz/api/{league}/schedule").json()
                 for event in r["results"]:
-                    game_title = f"{event['home']['name']} vs. {event['away']['name']}"
+                    game_title = f"{event['home']['name']}"# vs. {event['away']['name']}
                     utc_time = datetime.datetime.fromtimestamp(int(event["time"])) - datetime.timedelta(hours=17)
                     link = Link(f"https://{self.domains[2]}/embed/{league}/{game_title.split()[-1].lower()}.php")
                     games.append(Game(

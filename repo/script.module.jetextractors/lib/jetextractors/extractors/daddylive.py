@@ -1,3 +1,4 @@
+import json
 from typing import Dict
 from ..models.Extractor import Extractor
 from ..models.Game import Game
@@ -20,9 +21,13 @@ import urllib.parse
 
 class Daddylive(Extractor):
     def __init__(self) -> None:
+       
         self.domains = ["dlhd.sx", "d.daddylivehd.sx", "daddylive.sx"]
         self.name = "Daddylive"
-        self.short_name = "DLive"
+    
+        
+        
+        
 
     # https://stackoverflow.com/questions/21496246/how-to-parse-date-days-that-contain-st-nd-rd-or-th
     def solve(self, s):                                             

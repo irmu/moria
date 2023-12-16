@@ -1,5 +1,5 @@
 
-import requests, re, datetime
+import requests, re, datetime, base64
 from bs4 import BeautifulSoup
 
 from ..models.Extractor import Extractor
@@ -29,7 +29,8 @@ class StreamEastV2(Extractor):
         return games
 
     def get_link(self, url):
-        iframes = [Link(u) if not isinstance(u, Link) else u for u in find_iframes.find_iframes(url, "", [], [])]
-        return iframes[0]
+        r = requests.get(url).text
+        atob = base64.b64decode(re.findall(r"window.atob\('(.+?)'\)", r)[0]).decode("ascii")
+        return Link(atob, headers={"Referer": url})
 
 

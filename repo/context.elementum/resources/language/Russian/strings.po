@@ -1,0 +1,107 @@
+# Kodi Media Center language file
+# Addon Name: Elementum Context Helper
+# Addon id: context.elementum
+# Addon Provider: elgatito
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-01-27 19:53+0200\n"
+"PO-Revision-Date: 2015-09-05 06:39-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#32000"
+msgid "Play"
+msgstr "Воспроизвести"
+
+msgctxt "#32001"
+msgid "Info"
+msgstr "Информация"
+
+msgctxt "#32002"
+msgid "Assign torrent"
+msgstr "Назначить торрент"
+
+msgctxt "#32003"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "#32004"
+msgid "TMDB Api Key"
+msgstr ""
+
+msgctxt "#32005"
+msgid "Please define TMDB API key"
+msgstr "Пожалуйста, введите ключ TMDB API"
+
+msgctxt "#32006"
+msgid "TMDB API key not defined"
+msgstr "Ключ TMDB API не установлен"
+
+msgctxt "#32007"
+msgid "Error"
+msgstr "Ошибка"
+
+msgctxt "#32008"
+msgid "Cannot search TMDB"
+msgstr "Невозможно найти в TMDB"
+
+msgctxt "#32009"
+msgid "Playing with [COLOR FF46B3B3]Elementum[/COLOR]"
+msgstr "Воспроизведение в [COLOR FF46B3B3]Elementum[/COLOR]"
+
+msgctxt "#32010"
+msgid "Assigning torrent with [COLOR FF46B3B3]Elementum[/COLOR]"
+msgstr "Назначение торрента в [COLOR FF46B3B3]Elementum[/COLOR]"
+
+msgctxt "#32011"
+msgid "[COLOR FF46B3B3]Elementum[/COLOR] Menu..."
+msgstr "[COLOR FF46B3B3]Elementum[/COLOR] Меню..."
+
+msgctxt "#32012"
+msgid "Download"
+msgstr "Скачать"
+
+msgctxt "#32013"
+msgid "Downloading with [COLOR FF46B3B3]Elementum[/COLOR]"
+msgstr "Скачивание в [COLOR FF46B3B3]Elementum[/COLOR]"
+
+msgctxt "#32014"
+msgid "Could not find TMDB info"
+msgstr "Невозможно найти TMDB информацию"
+
+msgctxt "#32015"
+msgid "Could not get torrent info"
+msgstr "Невозможно найти информацию о торренте"
+
+msgctxt "#32016"
+msgid "Could not get Kodi library ID"
+msgstr "Невозможно найти идентификатор в библиотеке Kodi"
+
+msgctxt "#32017"
+msgid "Remove from library"
+msgstr "Удалить из библиотеки"
+
+msgctxt "#32018"
+msgid "Mark as watched in Trakt"
+msgstr "Отмет. просм. в Trakt"
+
+msgctxt "#32019"
+msgid "Mark as unwatched in Trakt"
+msgstr "Отмет. непросм. в Trakt"
+
+msgctxt "#32020"
+msgid "Play with custom search query"
+msgstr "Воспроизвести с измененным поисковым запросом"
+
+msgctxt "#32021"
+msgid "Download with custom search query"
+msgstr "Скачать с измененным поисковым запросом"

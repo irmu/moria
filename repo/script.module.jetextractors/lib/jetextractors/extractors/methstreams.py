@@ -1,33 +1,47 @@
-import requests, re, base64
+import requests, re, base64,json
 from bs4 import BeautifulSoup
 from dateutil.parser import parse
+from urllib.parse import urlparse
 from datetime import timedelta, datetime
 
 from ..models.Extractor import Extractor
 from ..models.Game import Game
 from ..models.Link import Link
 from ..util.m3u8_src import scan_page
+from ..util import jsunpack, find_iframes
 
 class Methstreams(Extractor):
     def __init__(self) -> None:
-        self.domains = ["rmethstreams.com"]
+        
+        self.domains = ["methstreams.me/"]
         self.name = "Methstreams"
         self.short_name = "MS"
-        
+
+    # def __init__(self) -> None:
+    #     url = ''
+    #     response = requests.get(url)
+    #     config_data = json.loads(response.content)
+    #     self.domains = config_data['Methstreams']
+    #     self.name = "Methstreams"
+
     def get_link(self, url):
-        m3u8 = ""
-        video_html = requests.get(url).text
-        video = BeautifulSoup(video_html, "html.parser")
-        if len(video.find_all("iframe")) > 0:
-            iframe = video.find("iframe").get("src")
-            r_iframe = requests.get(iframe).text
-            atob = re.findall(r'window.atob\("(.+?)"\)', r_iframe)[0]
-            m3u8 = Link(address=base64.b64decode(atob).decode("utf-8"), headers={"User-Agent": self.user_agent, "Referer": iframe})
-        else:
-            m3u8 = scan_page(url, video_html)
-        if m3u8 != None:
-            m3u8.is_ffmpegdirect = True     
-        return m3u8
+        iframes = [Link(u) if not isinstance(u, Link) else u for u in find_iframes.find_iframes(url, "", [], [])]
+        return iframes[0]
+        
+    # def get_link(self, url):
+    #     m3u8 = ""
+    #     video_html = requests.get(url).text
+    #     video = BeautifulSoup(video_html, "html.parser")
+    #     if len(video.find_all("iframe")) > 0:
+    #         iframe = video.find("iframe").get("src")
+    #         r_iframe = requests.get(iframe).text
+    #         atob = re.findall(r'window.atob\("(.+?)"\)', r_iframe)[0]
+    #         m3u8 = Link(address=base64.b64decode(atob).decode("utf-8"), headers={"User-Agent": self.user_agent, "Referer": iframe})
+    #     else:
+    #         m3u8 = scan_page(url, video_html)
+    #     if m3u8 != None:
+    #         m3u8.is_ffmpegdirect = True     
+    #     return m3u8
 
     def get_games(self):
         games = []

@@ -62,7 +62,8 @@ class SportsNest(Extractor):
         return games
 
     def get_link(self, url):
-        iframes = [Link(u) if not isinstance(u, Link) else u for u in find_iframes.find_iframes(url, "", [], [])]
-        return iframes[0]
+        r = requests.get(url).text
+        re_css = re.findall(r"src: '(.+?)'", r)[0]
+        return Link(re_css, headers={"Referer": url})
 
 

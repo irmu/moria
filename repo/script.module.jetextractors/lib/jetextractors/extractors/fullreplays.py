@@ -1,4 +1,6 @@
 from typing import List
+import sys
+import xbmcgui
 from bs4 import BeautifulSoup as bs
 from requests.sessions import Session
 from ..models.Extractor import Extractor
@@ -49,8 +51,39 @@ class FullReplays(Extractor):
             for button in source.find_all(class_='vlog-button'):
                 title = f'{button.text.strip()} - {host.capitalize()}'
                 link = button['data-sc']
-                if 'fviplions' in link:
+                if 'hoolights.com' in link:
                     continue
-                links.append(Link(link, name=title, is_resolveurl=True))
-        return links
+                links.append([title, link])
+        if links:
+            link = self.get_multilink(links)
+            if not link:
+                sys.exit()
+            title, link = link
+            if 'fviplions' in link:
+                from resolveurl.plugins.filelions import FileLionsResolver
+                splitted = link.split('/')
+                link = FileLionsResolver().get_media_url(splitted[2], splitted[-1])
+                if not link:
+                    sys.exit()
+                
+                return [Link(link, name=title, is_direct=True)]
+            if 'tapenoads' in link or 'tapeantiads' in link:
+               from resolveurl.plugins.streamtape import StreamTapeResolver
+               resolver = StreamTapeResolver()
+               splitted = link.split('/')
+               link = resolver.get_media_url(splitted[2], splitted[4])
+               if not link:
+                   sys.exit()
+               return [Link(link, name=title, is_direct=True)]
+            return [Link(link, name=title, is_resolveurl=True)]
     
+    def get_multilink(self, lists):
+        if len(lists) == 1:
+            return lists[0]
+        labels = [i[0] for i in lists]
+        dialog = xbmcgui.Dialog()
+        ret = dialog.select('Choose a Link', labels)
+        if ret == -1:
+           return ''
+        return lists[ret]
+        

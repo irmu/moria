@@ -1,5 +1,5 @@
 
-import requests, re, datetime
+import requests, re, time, json, datetime
 from bs4 import BeautifulSoup
 
 from ..models.Extractor import Extractor
@@ -8,9 +8,11 @@ from ..models.Link import Link
 from ..util import jsunpack
 
 class SportyBite(Extractor):
+  
     def __init__(self) -> None:
         self.domains = ["sportybite.top", "sporstream.de"]
         self.name = "SportyBite"
+    
 
     def get_games(self):
         games = []

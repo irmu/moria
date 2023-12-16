@@ -7,7 +7,7 @@ from ..models.Link import Link
 
 
 class SportsVideo(Extractor):
-    domains = ["basketball-video.com", "nfl-video.com", "nhlvideo.net","mlblive.net","rugby24.net"]
+    domains = ["basketball-video.com", "nfl-video.com", "nhlvideo.net","mlblive.net","rugby24.net", "fullfightreplays.com"]
     name = "SportsVideo"
 
     def get_games(self) -> List[Game]:
@@ -16,7 +16,8 @@ class SportsVideo(Extractor):
         games.append(Game(title="NFL", page="1"))
         games.append(Game(title="NHL", page="2"))
         games.append(Game(title="MLB", page="3"))
-        games.append(Game(title="Rugby", page="4"))        
+        games.append(Game(title="Rugby", page="4"))
+        games.append(Game(title="MMA", page="5"))
         return games
     
     def get_games_page(self, page) -> List[Game]:
